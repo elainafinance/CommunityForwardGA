@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public community intelligence response",
+  "type": "object",
+  "required": ["mode", "status", "community", "geography_resolution", "unknowns", "human_review_required"],
+  "properties": {
+    "mode": {"enum": ["live-public-data-preview", "resolver-demonstration"]},
+    "status": {"enum": ["PRELIMINARY", "INSUFFICIENT_EVIDENCE", "HUMAN_REVIEW_REQUIRED"]},
+    "research_status": {"enum": ["NOT_RUN", "CACHED", "UPDATED", "NEW_RESEARCH_REQUIRED", "INSUFFICIENT_EVIDENCE"]},
+    "community": {"type": "object"},
+    "geography_resolution": {
+      "type": "object",
+      "required": ["search_geography", "municipalities", "county", "zip_codes", "utility_service_areas", "school_districts", "rail_corridors"],
+      "properties": {
+        "search_geography": {"type": "string"},
+        "municipalities": {"type": "array", "items": {"type": "string"}},
+        "county": {"type": ["string", "null"]},
+        "zip_codes": {"type": "array", "items": {"type": "string"}},
+        "utility_service_areas": {"type": "array", "items": {"type": "string"}},
+        "school_districts": {"type": "array", "items": {"type": "string"}},
+        "development_authorities": {"type": "array", "items": {"type": "string"}},
+        "rail_corridors": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "infrastructure_projects": {"type": "array", "items": {"type": "object", "required": ["project_location_zip", "serving_utility", "utility_service_territory", "potential_service_area_impact", "confirmed_capacity_impact", "requires_utility_verification"]}},
+    "fiscal_measures": {"type": "array", "description": "SPLOST, E-SPLOST, LOST and other measures remain separate."},
+    "financial_baseline": {"type": "array", "description": "Entity-keyed county, city and school records with latest audited period separated from current public signals."},
+    "operating_revenue": {"type": "array", "description": "LOST, property tax and other operating-revenue signals kept separate from capital measures."},
+    "enterprise_funds": {"type": "array", "description": "Proprietary activity remains separate from ordinary General Fund revenue."},
+    "recent_signals": {"type": "array", "description": "Dated official, state, local-reporting or community-source items with evidence labels."},
+    "assets": {"type": "array"},
+    "referendum_discovery": {"type": "object", "description": "Ballotpedia discovery/context and official-validation status remain separate."},
+    "entity_cache": {"type": "array", "description": "Cache keys combine entity, document type, fiscal period/date and source URL."},
+    "community_needs": {"type": "array"},
+    "capital_matches": {"type": "array"},
+    "education_pathways": {"type": "array"},
+    "housing_assets": {"type": "array"},
+    "future_opportunities": {"type": "array"},
+    "community_conditions": {"type": "array", "description": "Entity-keyed active-priority records conforming to community_conditions.schema.json and using only VERIFIED, REPORTED, INFERENCE, or RESEARCH NEEDED."},
+    "search_lane_results": {"type": "array", "description": "Minimum-search-set coverage with attempted, populated, cached and unresolved lanes."},
+    "scores": {"type": "object", "description": "Optional synthetic/regression dimensions only; real-community output does not force numeric scores."},
+    "evidence": {"type": "array", "items": {"type": "object", "required": ["claim", "label", "source_url", "source_date", "retrieval_date", "geography", "service_area", "confidence"]}},
+    "unknowns": {"type": "array", "items": {"type": "string"}},
+    "human_review_required": {"const": true}
+  }
+}

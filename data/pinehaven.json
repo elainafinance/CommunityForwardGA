@@ -1,0 +1,271 @@
+{
+  "mode": "synthetic",
+  "disclaimer": "Synthetic Demonstration - Fictional County",
+  "community": {
+    "name": "Pinehaven County, Georgia",
+    "municipality": "Cedar Crossing",
+    "population": "11,420",
+    "type": "Rural agricultural county",
+    "utility": "Pinehaven Electric Cooperative (fictional)",
+    "rail": "Pinehaven & Gulf Short Line (fictional)",
+    "signal": "Planned 230 kV reinforcement and Pinehaven North substation",
+    "confidence": "Synthetic demonstration",
+    "classification": "Industrial reuse candidate requiring utility confirmation"
+  },
+  "scores": [
+    {"id":"technical","label":"Technical Opportunity","value":46,"direction":"Higher means more technically promising","explanation":"Several infrastructure signals exist, but no validated large-load parcel or utility commitment."},
+    {"id":"market","label":"Data Center Market Maturity","value":null,"direction":"Higher means more demonstrated market experience","explanation":"No operating cluster or validated large-load precedent is included in this synthetic case."},
+    {"id":"government","label":"Government Readiness","value":61,"direction":"Higher means more administratively ready","explanation":"Plans and project controls exist, while staffing and specialist capacity remain limited."},
+    {"id":"need","label":"Community Need","value":79,"direction":"Higher means greater documented need","explanation":"The scenario includes infrastructure, economic, workforce, and youth-development constraints."},
+    {"id":"partnership","label":"Partnership Opportunity","value":83,"direction":"Higher means stronger alignment with existing priorities","explanation":"Existing plans and institutions could anchor shared-value work if implementation is sustainable."},
+    {"id":"assets","label":"Existing Asset Leverage","value":72,"direction":"Higher means more latent value in existing assets","explanation":"Former industry, rail, fiber, the depot, and prior public investment create screening leads."},
+    {"id":"rail","label":"Rail & Corridor Leverage","value":64,"direction":"Higher means greater documented corridor leverage","explanation":"Regional service is represented, but local spurs, use, rights, and partner interest remain unresolved."},
+    {"id":"middle","label":"Middle School Engagement & Technology Creation Readiness","value":28,"direction":"Higher means stronger belonging, creation exposure, and pathway continuity","explanation":"General recreation exists, but dedicated teen space, technology creation, transportation, and pathway continuity are weak."},
+    {"id":"risk","label":"Community Risk","value":58,"direction":"Higher means greater execution risk","explanation":"Water, environment, public process, fiscal capacity, and site-condition questions require controls."}
+  ],
+  "middleSchoolSubscores": [
+    {"label":"Belonging & In-Person Engagement","value":28,"note":"Some general recreation and arts; no dedicated space and limited transportation."},
+    {"label":"Technology Creation Exposure","value":22,"note":"Technology is predominantly consumption-oriented; creation begins mainly in high school."},
+    {"label":"Pathway Continuity","value":34,"note":"High-school CTAE exists, but the middle-school bridge and paid pathway are weak."}
+  ],
+  "technologyLevels": [
+    {"level":"Technology Consumption","status":"Dominant","examples":"School devices, online assignments, games and media use"},
+    {"level":"Technology Literacy","status":"Limited","examples":"Annual digital citizenship and privacy concepts"},
+    {"level":"Technology Creation","status":"Gap","examples":"No established middle-school robotics, coding, electronics, CAD, VR/AR or fabrication sequence"},
+    {"level":"Technology Pathway","status":"Gap","examples":"No documented bridge into CTAE, credentials, dual enrollment or paid work-based learning"}
+  ],
+  "sections": [
+    {
+      "id":"power","title":"Future Power Infrastructure","icon":"⚡","filter":"future","prominent":true,
+      "summary":"A fictional 230 kV reinforcement and new substation are planned for 2030.",
+      "facts":[
+        {"label":"Service provider","value":"Pinehaven Electric Cooperative","status":"Documented"},
+        {"label":"Current substations","value":"Local distribution substations; large-load capability not established","status":"Insufficient Evidence"},
+        {"label":"Planned project","value":"Red Cedar-East Junction 230 kV reinforcement","status":"Reported","state":"planned"},
+        {"label":"Estimated completion","value":"2030 in the synthetic utility plan","status":"Reported","state":"planned"}
+      ],
+      "proves":"A future high-voltage infrastructure signal exists in the synthetic record.",
+      "unknown":"Deliverable MW, transformation, redundancy, interconnection, cost, queue position, route, and schedule.",
+      "confirmation":"Serving-utility engineering and interconnection study."
+    },
+    {
+      "id":"industrial","title":"Industrial Reuse","icon":"🏭","filter":"current","prominent":true,
+      "summary":"The 58-acre former GreenVale Foods campus is a historic industrial-use lead, not a validated technology site.",
+      "facts":[
+        {"label":"Former employer","value":"GreenVale Foods","status":"Documented"},
+        {"label":"Historic use","value":"Food processing, cold storage and wastewater pre-treatment","status":"Documented"},
+        {"label":"Current reuse status","value":"Screening lead only","status":"Potential"},
+        {"label":"Ownership/environment","value":"Not established in the synthetic record","status":"Requires Verification"}
+      ],
+      "proves":"A former industrial campus is appropriate for deeper reuse research.",
+      "unknown":"Title, structures, contamination, utilities, zoning, access, market availability and restrictions.",
+      "confirmation":"Owner, title counsel, environmental professionals, utilities, engineer and zoning officials."
+    },
+    {
+      "id":"rail","title":"Rail & Corridor Opportunity","icon":"🚆","filter":"current","prominent":true,
+      "summary":"An active but lightly used fictional short line links the industrial district and restored depot.",
+      "facts":[
+        {"label":"Owner/operator","value":"Pinehaven & Gulf Short Line","status":"Documented"},
+        {"label":"Local status","value":"Active regional service; local frequency not established","status":"Reported"},
+        {"label":"Industrial spur","value":"Former campus spur condition unknown","status":"Requires Verification"},
+        {"label":"Occupancy policy","value":"Applications for crossings are accepted","status":"Documented"},
+        {"label":"Fiber/utility rights","value":"No local rights established","status":"Insufficient Evidence"}
+      ],
+      "proves":"Rail can be evaluated for logistics, industrial reuse, tourism and corridor coordination.",
+      "unknown":"Customers, service frequency, track/spur condition, ownership, easements, economics and partner interest.",
+      "confirmation":"Railroad, title, engineering and commercial review."
+    },
+    {
+      "id":"water","title":"Water & Wastewater","icon":"💧","filter":"verification",
+      "summary":"Groundwater dependence and wet-weather wastewater constraints shape the public-capital and environmental discussion.",
+      "facts":[
+        {"label":"Water source","value":"Two fictional municipal groundwater systems","status":"Documented"},
+        {"label":"Wastewater","value":"0.72 MGD design figure; dependable headroom not established","status":"Reported"},
+        {"label":"Capital needs","value":"High-leakage zones and wet-weather improvements","status":"Documented"},
+        {"label":"Agriculture conflict","value":"Shared aquifer and irrigation demand","status":"Potential"}
+      ],
+      "proves":"Water is an existing community condition and public priority.",
+      "unknown":"Peak demand, drought yield, treatment compatibility, rate impacts and sustainable spare capacity.",
+      "confirmation":"Utility model, licensed engineering, environmental review and agricultural stakeholder input."
+    },
+    {
+      "id":"capital","title":"Public Capital","icon":"🏛️","filter":"needs",
+      "summary":"Pinehaven has already prioritized roads, water, public safety and community facilities through its fictional sales-tax program.",
+      "facts":[
+        {"label":"SPLOST","value":"Roads, water, public safety and facility improvements","status":"Documented"},
+        {"label":"Transportation grant","value":"Farm-to-market bridge planning award","status":"Reported"},
+        {"label":"E-SPLOST","value":"School safety and equipment program","status":"Documented"},
+        {"label":"Debt/unfunded need","value":"Current obligations require validation","status":"Research Needed"}
+      ],
+      "proves":"Approved project lists document public priorities, not project feasibility.",
+      "unknown":"Collections, expenditures, debt, delays, local match, backlog and recurring operating cost.",
+      "confirmation":"Local finance officials, auditors, bond counsel and project owners."
+    },
+    {
+      "id":"agriculture","title":"Agriculture","icon":"🌾","filter":"current",
+      "summary":"Row crops, poultry and irrigated acreage are central to Pinehaven's fictional economy and water context.",
+      "facts":[
+        {"label":"Farm acreage","value":"64,800 acres","status":"Documented"},
+        {"label":"Major activity","value":"Peanuts, cotton, poultry and timber","status":"Documented"},
+        {"label":"Irrigation","value":"Groundwater-dependent irrigated acreage","status":"Reported"},
+        {"label":"Ag-tech","value":"Sensors, diagnostics and irrigation efficiency","status":"Potential"}
+      ],
+      "proves":"Agriculture must be understood before land, energy or water decisions.",
+      "unknown":"Seasonal withdrawals, farm-access impacts, adoption economics and producer priorities.",
+      "confirmation":"Farmers, extension, water professionals and agriculture agencies."
+    },
+    {
+      "id":"middle-school","title":"Middle School Engagement & Technology Creation","icon":"🛠️","filter":"needs","prominent":true,
+      "summary":"Pinehaven has a youth-space and technology-creation gap before high-school CTAE begins.",
+      "facts":[
+        {"label":"Dedicated teen space","value":"No evidence in the synthetic inventory","status":"Research Needed"},
+        {"label":"Recreation/social","value":"General gym and monthly arts workshop","status":"Documented"},
+        {"label":"Transportation","value":"Late bus reaches only part of the county","status":"Documented"},
+        {"label":"Technology creation","value":"No established middle-school sequence","status":"Insufficient Evidence"},
+        {"label":"Hub concept","value":"Pinehaven Teen & Technology Hub","status":"Potential"}
+      ],
+      "proves":"The synthetic case has identifiable belonging, access and pathway gaps.",
+      "unknown":"Youth demand, informal programs, staffing, safeguarding, facility reuse, annual budget and partner capacity.",
+      "confirmation":"Students, families, schools, recreation, technical college, transport provider and accountable operator."
+    },
+    {
+      "id":"workforce","title":"Workforce & Education","icon":"🎓","filter":"needs",
+      "summary":"A high-school CTAE asset exists, but the bridge from middle school into credentials and paid work is incomplete.",
+      "facts":[
+        {"label":"Middle school","value":"Device use; limited creation exposure","status":"Documented"},
+        {"label":"High-school CTAE","value":"Introductory engineering and computing","status":"Documented"},
+        {"label":"Dual enrollment","value":"Awareness is limited in the synthetic scenario","status":"Reported"},
+        {"label":"Paid work-based learning","value":"No consistent pathway documented","status":"Insufficient Evidence"}
+      ],
+      "proves":"A later-stage program is an asset but does not prove early pathway continuity.",
+      "unknown":"Participation, completions, credentials, transport, internships, youth employment and employer capacity.",
+      "confirmation":"School district, CTAE, technical college, students, employers and labor-market analysis."
+    },
+    {
+      "id":"tourism","title":"Tourism & Underused Assets","icon":"📍","filter":"current",
+      "summary":"A restored depot, river heritage site and downtown events are assets with limited visitor-circulation evidence.",
+      "facts":[
+        {"label":"Depot","value":"Restored but lightly programmed","status":"Documented"},
+        {"label":"Downtown","value":"Historic square and seasonal market","status":"Documented"},
+        {"label":"Rail tourism","value":"No excursion service established","status":"Potential"},
+        {"label":"Visitor circulation","value":"No current measurement","status":"Research Needed"}
+      ],
+      "proves":"Existing cultural investments may be underused.",
+      "unknown":"Demand, operator, insurance, rail cooperation, programming budget and economic capture.",
+      "confirmation":"Tourism partners, downtown businesses, railroad and market analysis."
+    },
+    {
+      "id":"governance","title":"Governance & Community Risk","icon":"⚖️","filter":"verification",
+      "summary":"Planning documents exist, but major-infrastructure rules, transparent process and community conditions require review.",
+      "facts":[
+        {"label":"Planning readiness","value":"Comprehensive and capital plans represented","status":"Documented"},
+        {"label":"Data-center ordinance","value":"Not established","status":"Research Needed"},
+        {"label":"Water/environment","value":"Potential conflict requires public process","status":"Potential"},
+        {"label":"Community support","value":"Not assumed","status":"Insufficient Evidence"}
+      ],
+      "proves":"Process readiness and risk must remain visible alongside technical signals.",
+      "unknown":"Zoning, moratoria, transparency, development agreements, opposition/support and legal authority.",
+      "confirmation":"Local government, counsel, public records and structured community engagement."
+    }
+  ],
+  "pathway": [
+    {"stage":"Elementary exposure","status":"research","note":"Creation exposure requires validation"},
+    {"stage":"Middle school","status":"gap","note":"Limited belonging and creation exposure"},
+    {"stage":"High-school CTAE","status":"asset","note":"Introductory engineering and computing"},
+    {"stage":"9th-grade bridge","status":"research","note":"Locally or privately funded bridge; not state-funded dual enrollment"},
+    {"stage":"Dual enrollment","status":"weak","note":"Later-grade awareness and access are limited"},
+    {"stage":"College + credentials","status":"weak","note":"Technical-college/university progression is not consistently documented"},
+    {"stage":"Paid work-based learning","status":"gap","note":"No reliable bridge"},
+    {"stage":"Local technology work","status":"research","note":"Employer demand and recruitment conditions require validation"}
+  ],
+  "opportunities": [
+    {"title":"Industrial reuse research opportunity","condition":"Closed food-processing campus","signal":"Future transmission + short-line rail","response":"Coordinate site diligence, corridor planning and utility dialogue.","status":"Potential","confirmation":"Utility, environment, title, zoning, railroad and engineering"},
+    {"title":"Shared infrastructure opportunity","condition":"SPLOST water burden","signal":"Major technology-project screening","response":"Evaluate project-specific upgrades that do not shift costs to residents.","status":"Potential","confirmation":"Utility capacity, sustainability, procurement, rates and legal authority"},
+    {"title":"Technology creation pathway opportunity","condition":"Middle-school engagement gap","signal":"Existing high-school CTAE","response":"Test the Pinehaven Teen & Technology Hub and a sequenced creation pathway.","status":"Evidence-backed opportunity","confirmation":"Youth demand, transport, staffing, safeguarding, partners and recurring funds"},
+    {"title":"Ag-tech and water-resilience opportunity","condition":"Agriculture + groundwater dependence","signal":"Fiber expansion","response":"Extension-led irrigation efficiency, sensors and equipment diagnostics.","status":"Potential","confirmation":"Producer demand, water evidence, data governance and economics"},
+    {"title":"Tourism circulation opportunity","condition":"Underused depot and downtown assets","signal":"Rail corridor","response":"Test programming, wayfinding, events and regional visitor movement.","status":"Potential","confirmation":"Railroad interest, operator, demand, insurance and operating budget"}
+  ],
+  "sources": [
+    {"title":"Synthetic utility capital plan","type":"Fictional demonstration source","date":"2030 planning scenario"},
+    {"title":"Synthetic county capital program","type":"Fictional demonstration source","date":"Current scenario"},
+    {"title":"Synthetic school and recreation inventory","type":"Fictional demonstration source","date":"Current scenario"},
+    {"title":"Synthetic industrial and rail history","type":"Fictional demonstration source","date":"Twenty-year scenario"}
+  ],
+  "research_status": "CACHED",
+  "geography_resolution": {
+    "search_geography": "Pinehaven example",
+    "municipalities": ["Cedar Crossing"],
+    "county": "Pinehaven County",
+    "zip_codes": ["31794"],
+    "utility_service_areas": ["Pinehaven Electric Cooperative service area (fictional)"],
+    "school_districts": ["Pinehaven County Schools (fictional)"],
+    "development_authorities": ["Pinehaven Development Authority (fictional)"],
+    "rail_corridors": ["Pinehaven & Gulf Short Line (fictional)"],
+    "regional_infrastructure_rule": "Service-area relationships first; physical distance is supplemental",
+    "tags": ["Inside Input Geography", "Same County", "Same Utility Service Area"]
+  },
+  "fiscal_measures": [
+    {"type":"SPLOST","role":"Capital Need","detail":"Roads, water, public safety and facility improvements","status":"Documented"},
+    {"type":"E-SPLOST","role":"School Capital Need","detail":"School safety and equipment program","status":"Documented"},
+    {"type":"LOST","role":"Operating Revenue Dependence","detail":"Synthetic placeholder; collections and General Fund dependence were not included in the original case","status":"Research Needed"}
+  ],
+  "enterprise_funds": [
+    {"name":"Water and wastewater enterprise","accounting_boundary":"Proprietary activity kept separate from ordinary General Fund revenue","operating_revenue":"Synthetic placeholder","operating_expenses":"Synthetic placeholder","debt":"Requires utility financial analysis","capital_backlog":"Leakage and wet-weather improvements represented","ratepayer_benefit":"Potential operating-efficiency and rate-pressure benefit; no lower-rate promise","status":"Requires Verification"}
+  ],
+  "infrastructure_projects": [
+    {"project_id":"pinehaven-230kv","name":"Red Cedar–East Junction 230 kV reinforcement","project_location_zip":"31794","serving_utility":"Pinehaven Electric Cooperative (fictional)","utility_service_territory":["Pinehaven County service area (fictional)"],"affected_geographies":["31794","Pinehaven County"],"potential_service_area_impact":"Potential redundancy and system-capability relevance","confirmed_capacity_impact":null,"requires_utility_verification":true,"relationship_tag":"Same Utility Service Area","evidence_status":"Reported"}
+  ],
+  "community_needs": [
+    {"category":"water","need":"Leakage reduction and wet-weather wastewater improvements","evidence":"Synthetic capital program","status":"Documented"},
+    {"category":"schools","need":"School safety, equipment and technology-creation pathway","evidence":"Synthetic E-SPLOST and youth inventory","status":"Documented"},
+    {"category":"housing","need":"Housing-condition and rehabilitation inventory","evidence":"Missing from original Pinehaven case","status":"Research Needed"},
+    {"category":"industrial development","need":"Former food-processing campus diligence","evidence":"Synthetic industrial history","status":"Potential"}
+  ],
+  "capital_matches": [
+    {"community_need":"Water-system leakage and wet-weather improvements","existing_local_funding":"Synthetic SPLOST capital priority","potential_match":"GEFA, USDA or other eligible infrastructure program","potential_private_participation":"Project-specific shared infrastructure where legally and financially appropriate","total_leverage":"Not calculated","status":"Eligibility Requires Verification"},
+    {"community_need":"School technology-creation infrastructure","existing_local_funding":"Synthetic E-SPLOST safety and equipment program","potential_match":"Education, workforce or institutional partnership programs","potential_private_participation":"Equipment, curriculum, instructors or work-based learning","total_leverage":"Not calculated","status":"Eligibility Requires Verification"}
+  ],
+  "narrative": {
+    "needs": [
+      {"title":"Water and wastewater reliability","detail":"Leakage zones and wet-weather constraints are represented in the existing synthetic record.","status":"Documented"},
+      {"title":"Middle-school belonging and technology creation","detail":"The existing scenario shows a gap before high-school CTAE begins.","status":"Documented"},
+      {"title":"Housing condition and rehabilitation","detail":"The original case did not include sufficient housing evidence.","status":"Research Needed"}
+    ],
+    "funding": [
+      {"title":"SPLOST — capital need","detail":"Roads, water, public safety and facility improvements are separate capital priorities.","status":"Documented"},
+      {"title":"E-SPLOST — school capital need","detail":"School safety and equipment are represented separately from county capital needs.","status":"Documented"},
+      {"title":"LOST — operating revenue dependence","detail":"Collections, distribution and General Fund dependence were not included in the original Pinehaven case.","status":"Research Needed"}
+    ],
+    "exists": [
+      {"title":"Former industrial campus","detail":"A 58-acre food-processing campus is a reuse lead, not a validated technology site.","status":"Documented"},
+      {"title":"Rail and public assets","detail":"A fictional short line, restored depot and existing public facilities create leverage questions.","status":"Reported"},
+      {"title":"Water/wastewater enterprise","detail":"Municipal systems are treated as proprietary utility activity, not ordinary General Fund revenue.","status":"Requires Verification"}
+    ],
+    "coming": [
+      {"title":"230 kV reinforcement and substation","detail":"Planned for 2030 in the existing synthetic scenario; customer capacity remains unknown.","status":"Reported"},
+      {"title":"Fiber expansion","detail":"A future signal for education, agriculture and economic diversification; exact reach requires verification.","status":"Potential"}
+    ],
+    "underused": [
+      {"title":"GreenVale Foods campus","detail":"Former industrial acreage, cold storage and wastewater pretreatment warrant reuse diligence.","status":"Potential"},
+      {"title":"Restored depot and downtown","detail":"Existing investment appears lightly programmed in the synthetic scenario.","status":"Documented"},
+      {"title":"Productive farmland","detail":"Previously disturbed sites should be tested before conversion of irrigated agricultural land.","status":"Requires Verification"}
+    ],
+    "matches": [
+      {"title":"Shared utility-capital opportunity","detail":"Pair the documented water priority with eligible public programs and project-specific private participation without shifting costs to residents.","status":"Potential"},
+      {"title":"Technology-creation education opportunity","detail":"Connect E-SPLOST school modernization with the existing middle-school creation gap and high-school CTAE asset.","status":"Potential"},
+      {"title":"Housing rehabilitation and tax-base opportunity","detail":"A synthetic placeholder requiring a housing inventory, rehabilitation economics and program eligibility review.","status":"Research Needed"}
+    ],
+    "legacy": [
+      {"title":"Stronger utility","detail":"Modernized systems, lower losses and reusable capacity could remain if utility economics are sound.","status":"Potential"},
+      {"title":"Technology creators and credentials","detail":"A durable pathway could connect elementary exposure, middle-school creation, CTAE, dual enrollment, credentials and paid work.","status":"Potential"},
+      {"title":"Protected farmland and reused industry","detail":"Prioritize disturbed industrial land and water resilience before productive-farmland conversion.","status":"Potential"},
+      {"title":"Adaptable technology ecosystem","detail":"Secure networks, utility analytics, ag-tech, controls, HPC and later hybrid research are future-readiness hypotheses—not promised employers.","status":"Potential"}
+    ]
+  },
+  "future_research": [
+    {"title":"Geology & subsurface","detail":"Foundation conditions, groundwater interaction, karst, mineral and disturbed-land evidence require USGS and engineering review.","status":"Requires Verification"},
+    {"title":"Alternative Cooling & Coastal Water Strategy","detail":"Reclaimed water, closed-loop, brackish or seawater-assisted concepts are future research requiring engineering, environmental and permitting study.","status":"Future Research / Requires Engineering Study"},
+    {"title":"Family Attraction & Retention","detail":"Education options, housing, broadband, recreation, employment and legally applicable family-choice variables require evidence; scholarships are not public-school funding.","status":"Potential"},
+    {"title":"Future Technology Adaptability","detail":"AI/data-center infrastructure does not automatically become HPC or quantum infrastructure; secure networks, research partners, laboratories and workforce must be established.","status":"Potential"}
+  ]
+}

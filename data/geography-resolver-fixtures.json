@@ -1,0 +1,81 @@
+{
+  "fixtures": [
+    {
+      "fixture_id": "americus-multi-zip",
+      "match": ["31709", "31719", "americus", "americus georgia", "sumter county"],
+      "mode": "resolver-demonstration",
+      "disclaimer": "Geography Resolver Demonstration — Not Community Research",
+      "research_status": "CACHED",
+      "community": {
+        "name": "Americus, Georgia",
+        "municipality": "Americus",
+        "county": "Sumter County",
+        "population": "Research not run",
+        "utility": "Service providers require source validation",
+        "rail": "Corridor research not run",
+        "signal": "Multi-ZIP and service-area relationship demonstration",
+        "confidence": "Resolver fixture only",
+        "classification": "Geography resolved; community research not run"
+      },
+      "geography_resolution": {
+        "search_geography": "31709",
+        "municipalities": ["Americus"],
+        "county": "Sumter County",
+        "zip_codes": ["31709", "31719"],
+        "utility_service_areas": ["Electric, water, sewer, gas and broadband territories require source validation"],
+        "school_districts": ["Countywide school-system relationship requires source validation"],
+        "development_authorities": ["County/municipal development-authority relationship requires source validation"],
+        "rail_corridors": ["Rail relationship research not run"],
+        "regional_infrastructure_rule": "Service-area relationships first; physical distance is supplemental",
+        "tags": ["Same Municipality", "Same County", "Regional Infrastructure"]
+      },
+      "infrastructure_projects": [
+        {
+          "project_id": "americus-service-area-test-project",
+          "name": "Illustrative shared-service infrastructure project",
+          "project_location_zip": "31719",
+          "serving_utility": "Illustrative service-area fixture — not a real utility finding",
+          "utility_service_territory": ["31709", "31719"],
+          "affected_geographies": ["31709", "31719"],
+          "potential_service_area_impact": "May be relevant across the shared illustrative service area",
+          "confirmed_capacity_impact": null,
+          "requires_utility_verification": true,
+          "relationship_tag": "Same Utility Service Area",
+          "evidence_status": "Requires Verification"
+        }
+      ],
+      "fiscal_measures": [
+        {"type": "SPLOST", "role": "Capital Need", "status": "NEW_RESEARCH_REQUIRED"},
+        {"type": "E-SPLOST", "role": "School Capital Need", "status": "NEW_RESEARCH_REQUIRED"},
+        {"type": "LOST", "role": "Operating Revenue Dependence", "status": "NEW_RESEARCH_REQUIRED"}
+      ],
+      "enterprise_funds": [
+        {"name": "Municipal utility enterprises", "accounting_boundary": "Separate proprietary/enterprise activity — not ordinary General Fund revenue", "status": "NEW_RESEARCH_REQUIRED"}
+      ],
+      "narrative": {
+        "needs": [{"title": "Documented community needs", "detail": "Approved public-source research has not been run for this resolver fixture.", "status": "Research Needed"}],
+        "funding": [{"title": "SPLOST, E-SPLOST and LOST", "detail": "Each must be researched and reported separately.", "status": "Research Needed"}],
+        "exists": [{"title": "Community and utility systems", "detail": "The resolver expands beyond one ZIP; asset findings still require evidence.", "status": "Requires Verification"}],
+        "coming": [{"title": "Regional infrastructure", "detail": "A project in 31719 can be relevant to 31709 through a shared service relationship, but no capacity is established.", "status": "Requires Verification"}],
+        "underused": [{"title": "Lost or underused assets", "detail": "Research not run.", "status": "Research Needed"}],
+        "matches": [{"title": "Matching capital", "detail": "Eligibility and leverage research not run.", "status": "Research Needed"}],
+        "legacy": [{"title": "Potential long-term outcomes", "detail": "No outcome is inferred from geography resolution alone.", "status": "Insufficient Evidence"}]
+      },
+      "scores": {
+        "technical_opportunity": null,
+        "data_center_market_maturity": null,
+        "government_readiness": null,
+        "community_need": null,
+        "partnership_opportunity": null,
+        "existing_asset_leverage": null,
+        "rail_corridor_leverage": null,
+        "middle_school_engagement_technology_creation_readiness": null,
+        "community_risk": null
+      },
+      "pathway": [],
+      "sections": [],
+      "opportunities": [],
+      "sources": [{"title": "User-directed multi-ZIP resolver fixture", "type": "Demonstration logic only", "date": "No community research performed"}]
+    }
+  ]
+}

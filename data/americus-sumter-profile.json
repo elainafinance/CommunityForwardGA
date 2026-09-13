@@ -1,0 +1,448 @@
+{
+  "profile_id": "americus-sumter-deep-pilot",
+  "version": "2026-09-13.5",
+  "community": "Americus / Sumter County, Georgia",
+  "evidence_labels": ["VERIFIED", "REPORTED", "INFERENCE", "RESEARCH NEEDED"],
+  "disclaimer": "Community-readiness analysis only. No site recommendation, approval position, engineering conclusion, or claim of community consent.",
+  "community_conditions": [
+    {"condition_id":"americus-school-capital","category":"Youth & Education","title":"School capital and shared recreation","short_description":"The approved 2025 E-SPLOST includes an Athletic and Sports Complex and technology capital.","geography":["Sumter County School District","Americus"],"date_range":"2025-11-04 through authorized program period","evidence_status":"VERIFIED","source_ids":["sumter-2025-ballot","sumter-2025-election-results"],"evidence_type":"official ballot and election result","current_community_response":"Voter-authorized capital program","funding_already_committed":"Up to $45M E-SPLOST collections and up to $50M GO bonds authorized","unresolved_need":"Project schedule, funded scope, shared-use access and recurring operations","major_investment_relevance":"Complement funded facilities through access, staffing, transport, maintenance and technology refresh","recommendation_eligible":true,"durability_test":"Public access and useful technology must survive the developer and tenant","operating_sustainability":"School/community agreement and recurring operating budget required"},
+    {"condition_id":"americus-downtown-streetscape","category":"Downtown & Economic Development","title":"Downtown streetscape and accessibility","short_description":"A $1.7M federal award was reported for downtown sidewalks, accessibility, safety and streetscape work, with additional funding still needed.","geography":["City of Americus"],"date_range":"2026-02-19","evidence_status":"REPORTED","source_ids":["americus-downtown-streetscape"],"evidence_type":"official local program report","current_community_response":"City-sponsored streetscape phase","funding_already_committed":"$1.7M Community Project Funding reported","unresolved_need":"Full-district scope, funding, schedule and operations","major_investment_relevance":"Leverage adopted public work and building reuse rather than create disconnected facilities","recommendation_eligible":true,"durability_test":"Public realm improvements remain city-controlled","operating_sustainability":"City capital and maintenance plan required"},
+    {"condition_id":"sumter-industrial-site-readiness","category":"Downtown & Economic Development","title":"Prepared industrial land","short_description":"The 136± acre Southerfield Road Industrial Park earned state GRAD Select certification.","geography":["Sumter County","Americus"],"date_range":"2026-05-25","evidence_status":"VERIFIED","source_ids":["southerfield-grad-select"],"evidence_type":"official state announcement","current_community_response":"Development authority site preparation and third-party due diligence","funding_already_committed":"Not stated","unresolved_need":"Project-specific utilities, environmental fit, tenant demand and job quality","major_investment_relevance":"Attributable infrastructure could be designed for reusable industrial value","recommendation_eligible":true,"durability_test":"Infrastructure remains useful to multiple future employers","operating_sustainability":"Owner, maintenance and cost responsibility must be documented"},
+    {"condition_id":"sumter-workforce-housing","category":"Housing","title":"Workforce housing planning and partnership","short_description":"The authority reported housing planning, and GSW documented a recurring cross-institution homebuilding partnership.","geography":["Americus","Sumter County"],"date_range":"2025","evidence_status":"REPORTED","source_ids":["select-sumter-current","gsw-fuller-housing"],"evidence_type":"authority and university announcements","current_community_response":"Planning plus a one-home annual collaboration","funding_already_committed":"Not stated","unresolved_need":"Quantified need, sites, financing, scale and long-term affordability","major_investment_relevance":"Support a locally adopted implementation model rather than one-time housing gifts","recommendation_eligible":true,"durability_test":"Housing remains permanently useful and locally governed","operating_sustainability":"Financing, taxes, insurance and stewardship must be assigned"},
+    {"condition_id":"phoebe-sumter-childcare","category":"Health / Social Infrastructure","title":"Childcare as workforce infrastructure","short_description":"Phoebe reported an on-campus childcare facility, an initial approximately 50-child plan and a $100,000 private contribution.","geography":["Phoebe Sumter Medical Center","Americus"],"date_range":"2025-10-06","evidence_status":"REPORTED","source_ids":["phoebe-sumter-childcare"],"evidence_type":"official health-system announcement","current_community_response":"Hospital-led childcare development","funding_already_committed":"$100,000 private contribution reported","unresolved_need":"Opening, total capital, operating model and expansion funding","major_investment_relevance":"Add capacity only through an operator-backed, workforce-linked plan","recommendation_eligible":true,"durability_test":"Licensed childcare continues independent of a corporate sponsor","operating_sustainability":"Fees, subsidy, staffing and facility costs require a recurring plan"},
+    {"condition_id":"sumter-youth-pathways","category":"Youth & Education","title":"Youth leadership and technology creation","short_description":"Existing regional leadership and school/college technology pathways provide a base, but full pathway capacity is not mapped.","geography":["Sumter County","regional Sumter EMC service territory"],"date_range":"2024–2026","evidence_status":"VERIFIED","source_ids":["sumter-emc-youth","gsw-server","ignite-cca"],"evidence_type":"official utility and institution announcements","current_community_response":"Youth leadership, school and postsecondary technical programming","funding_already_committed":"Program budgets not public in reviewed sources","unresolved_need":"Participation scale, transport, instructors and sustained creation space","major_investment_relevance":"Expand qualified staffing, access and community-owned labs","recommendation_eligible":true,"durability_test":"Skills and facilities remain portable across employers","operating_sustainability":"Institution-approved staffing, transport, maintenance and refresh budgets required"},
+    {"condition_id":"sumter-manufacturing-diversification","category":"Workforce","title":"Manufacturing expansion and supplier diversity","short_description":"The authority reports industrial-property activity and employer expansions, including NanoPV building purchases.","geography":["Sumter County"],"date_range":"2024–2026","evidence_status":"REPORTED","source_ids":["select-sumter-current","nanopv"],"evidence_type":"authority and company reporting","current_community_response":"Recruitment, property activity and industry networking","funding_already_committed":"Not established","unresolved_need":"Verified jobs, production status, skill demand and supplier fit","major_investment_relevance":"Build portable credentials and recruit multiple complementary employers","recommendation_eligible":true,"durability_test":"Employment base is diversified beyond one project","operating_sustainability":"Programs must have institutional owners and recurring funding"},
+    {"condition_id":"americus-utility-controls","category":"Utilities","title":"Utility strength and financial controls","short_description":"The City water/sewer enterprise produced FY2024 operating income while transfers, debt and audit adjustments create capacity questions.","geography":["City of Americus water and sewer system"],"date_range":"FY2024–2026","evidence_status":"VERIFIED","source_ids":["city-americus-fy2024-acfr","gefa-dwsrf-2025"],"evidence_type":"audited financial report and state funding list","current_community_response":"Operating enterprise system and planned drinking-water capital","funding_already_committed":"$12M GEFA DWSRF listing; final terms require confirmation","unresolved_need":"Corrective actions, rate/debt plan and project-specific engineering capacity","major_investment_relevance":"Full attributable project cost plus separately negotiated reusable public improvements","recommendation_eligible":true,"durability_test":"Public system retains reusable assets and reserves","operating_sustainability":"Transparent cost allocation and long-term maintenance funding required"},
+    {"condition_id":"americus-large-project-governance","category":"Governance & Public Trust","title":"Large-project governance and public trust","short_description":"Agreement, agenda, draft moratorium and community-record activity show an active process with unresolved rules and reporting.","geography":["City of Americus","Sumter County"],"date_range":"2026","evidence_status":"VERIFIED","source_ids":["liberty-agreement","moratorium-draft","sumter-current-agendas","scc4t-records"],"evidence_type":"signed agreement, proposed document, official meeting index and community source","current_community_response":"Development agreement, public meetings and community review","funding_already_committed":"Not counted as community benefit without verified terms","unresolved_need":"Adopted ordinance, moratorium status, incentives, enforcement and annual public reporting","major_investment_relevance":"A binding agreement could fund compliance and public reporting without influencing civic outcomes","recommendation_eligible":true,"durability_test":"Rules and reporting remain enforceable through ownership changes","operating_sustainability":"Named public owner, audit resources and recurring compliance funding required"}
+  ],
+  "sections": [
+    {
+      "id": "americus-community-snapshot",
+      "title": "Community Snapshot",
+      "icon": "📍",
+      "kicker": "Place and purpose",
+      "intro": "ZIPs 31709 and 31719 share this entity-level profile; ZIP is the entry point, not the infrastructure boundary.",
+      "items": [
+        {"title":"A real community deep pilot","detail":"Americus is the municipal center within Sumter County. The profile follows city, county, school, higher-education, utility, environmental and regional evidence without assigning an opaque score.","status":"VERIFIED","source_ids":["census-sumter","americus-sumter-plan"]},
+        {"title":"Opportunity thesis","detail":"Existing public institutions, workforce assets, municipal utilities, historic property and regional infrastructure could create long-term value if binding project obligations and community ownership are established.","status":"INFERENCE","source_ids":["americus-sumter-plan","liberty-agreement"]},
+        {"title":"Screening boundary","detail":"This profile does not establish megawatt availability, water or wastewater capacity, final environmental suitability, tax treatment, permitting status, or public consent.","status":"RESEARCH NEEDED","source_ids":["liberty-agreement","terracon-wetlands"]}
+      ]
+    },
+    {
+      "id": "americus-active-priorities",
+      "title": "What the Community Is Working On",
+      "icon": "🧩",
+      "kicker": "Community Conditions & Active Priorities",
+      "intro": "Current conditions are shown only when a public source identifies an issue, investment, program or unresolved decision. Potential responses are analytical options—not promises or endorsements.",
+      "items": [
+        {"title":"School capital and shared recreation","detail":"The November 2025 E-SPLOST authorizes an Athletic and Sports Complex, technology systems and other school capital. The vote documents a public priority; it does not show which projects are designed, contracted or available for community use.","status":"VERIFIED","source_ids":["sumter-2025-ballot","sumter-2025-election-results"],"metrics":[{"label":"Category","value":"Youth & Education / Recreation"},{"label":"Current response","value":"Voter authorization and an existing school capital program"},{"label":"Funding already committed","value":"Up to $45M E-SPLOST collections; up to $50M GO bonds authorized"},{"label":"Remaining gap","value":"Implementation schedule, shared-use terms and recurring operations"},{"label":"Potential major-investment response","value":"Complement—not duplicate—facilities; fund access, instructors, transport, maintenance and technology refresh"}]},
+        {"title":"Downtown streetscape and accessibility","detail":"Americus Main Street reports a $1.7 million FY2026 Community Project Funding award for sidewalks, streetscape infrastructure, accessibility and safety, while stating that additional funding is needed to complete improvements across downtown.","status":"REPORTED","source_ids":["americus-downtown-streetscape"],"metrics":[{"label":"Category","value":"Downtown & Economic Development"},{"label":"Current response","value":"City-sponsored streetscape phase"},{"label":"Funding already committed","value":"$1.7M federal Community Project Funding reported"},{"label":"Remaining gap","value":"Funding and phasing for the full downtown district"},{"label":"Potential major-investment response","value":"Leverage verified public plans and reuse buildings; require public ownership and an operating plan"}]},
+        {"title":"Prepared industrial land","detail":"The Georgia Department of Economic Development announced GRAD Select status for the 136± acre Southerfield Road Industrial Park after third-party due diligence. Certification improves industrial readiness but does not establish data-center power, water, fiber or environmental capacity.","status":"VERIFIED","source_ids":["southerfield-grad-select"],"metrics":[{"label":"Category","value":"Downtown & Economic Development / Workforce"},{"label":"Current response","value":"Development authority site preparation and state certification"},{"label":"Funding already committed","value":"Not stated in the announcement"},{"label":"Remaining gap","value":"Project-specific utilities, environmental fit, tenant demand and job quality"},{"label":"Potential major-investment response","value":"Fund attributable infrastructure while preserving reusable site and utility assets"}]},
+        {"title":"Workforce housing planning and delivery","detail":"The Development Authority reports a 2025 workforce-housing master-plan effort, while GSW documents a recurring Fuller Center partnership that delivered one Americus home in 2025 with SGTC and Phoebe participation. These are existing responses, not evidence that the community-wide housing gap is quantified.","status":"REPORTED","source_ids":["select-sumter-current","gsw-fuller-housing"],"metrics":[{"label":"Category","value":"Housing"},{"label":"Current response","value":"Authority planning plus cross-institution homebuilding partnership"},{"label":"Funding already committed","value":"Not stated in the reviewed public pages"},{"label":"Remaining gap","value":"Need, scale, sites, financing and long-term affordability"},{"label":"Potential major-investment response","value":"Support an adopted housing implementation plan rather than a one-time donation"}]},
+        {"title":"Childcare as workforce infrastructure","detail":"Phoebe reported a $100,000 Synovus contribution toward an on-campus childcare facility at Phoebe Sumter, initially planned for about 50 children with expansion contemplated. The facility is framed as a recruitment and retention tool for health-care workers.","status":"REPORTED","source_ids":["phoebe-sumter-childcare"],"metrics":[{"label":"Category","value":"Health / Social Infrastructure / Workforce"},{"label":"Current response","value":"Hospital-led childcare facility development"},{"label":"Funding already committed","value":"$100,000 private contribution reported"},{"label":"Remaining gap","value":"Opening date, total capital, operating model and expansion funding"},{"label":"Potential major-investment response","value":"Support durable childcare capacity only through an operator-backed capital and recurring-cost plan"}]},
+        {"title":"Youth leadership and technology creation","detail":"Sumter EMC documented a 12-student 2024–2025 regional Youth Leadership Experience cohort including a Sumter County High School student. GSW and local schools also provide technical pathways, but a complete middle-school-to-employment capacity map remains unfinished.","status":"VERIFIED","source_ids":["sumter-emc-youth","gsw-server","ignite-cca"],"metrics":[{"label":"Category","value":"Youth & Education"},{"label":"Current response","value":"Regional youth leadership and existing school/college pathways"},{"label":"Funding already committed","value":"Program budgets not public in reviewed sources"},{"label":"Remaining gap","value":"Participation scale, transport, instructors and sustained creation space"},{"label":"Potential major-investment response","value":"Expand access, qualified staffing and community-owned labs with measurable non-causal outcomes"}]},
+        {"title":"Manufacturing expansion and supplier diversity","detail":"The Development Authority reports current industrial-site marketing, NanoPV building purchases in 2024–2025 and other employer expansions. These are public economic-development signals; company operating status, employment and data-center supply-chain fit require verification.","status":"REPORTED","source_ids":["select-sumter-current","nanopv"],"metrics":[{"label":"Category","value":"Workforce / Downtown & Economic Development"},{"label":"Current response","value":"Authority recruitment, property activity and industry networking"},{"label":"Funding already committed","value":"Not established by the reviewed pages"},{"label":"Remaining gap","value":"Verified jobs, production status, skill demand and supplier opportunities"},{"label":"Potential major-investment response","value":"Build portable credentials and recruit multiple employers rather than depend on one tenant"}]},
+        {"title":"Utility strength and financial controls","detail":"The City water and sewer fund produced FY2024 operating income, but net position declined after transfers and the audit reported adjustment and control issues. Public financial strength is relevant; physical incremental capacity remains a separate engineering question.","status":"VERIFIED","source_ids":["city-americus-fy2024-acfr","gefa-dwsrf-2025"],"metrics":[{"label":"Category","value":"Utilities / Governance & Public Trust"},{"label":"Current response","value":"Operating enterprise system and planned drinking-water capital"},{"label":"Funding already committed","value":"$12M GEFA DWSRF project listing; final terms require confirmation"},{"label":"Remaining gap","value":"Corrective actions, rate/debt plan and project-specific engineering capacity"},{"label":"Potential major-investment response","value":"Developer-funded attributable work plus separately negotiated public improvements with transparent accounting"}]},
+        {"title":"Large-project governance and public trust","detail":"A signed Liberty agreement, an unsigned moratorium draft, public agendas and community-organized records show an active governance issue. The applicable ordinance, moratorium status, incentives, annual reporting and binding community-benefit obligations remain unresolved.","status":"VERIFIED","source_ids":["liberty-agreement","moratorium-draft","sumter-current-agendas","scc4t-records"],"metrics":[{"label":"Category","value":"Governance & Public Trust"},{"label":"Current response","value":"Development agreement, public meetings and community review"},{"label":"Funding already committed","value":"Not treated as community benefit without verified terms"},{"label":"Remaining gap","value":"Adopted rules, enforceability, reporting and transparent public process"},{"label":"Potential major-investment response","value":"Fund compliance and public reporting capacity without controlling civic decision-making"}]}
+      ]
+    },
+    {
+      "id": "americus-residents-paying",
+      "title": "What Residents Are Already Paying For",
+      "icon": "🪙",
+      "kicker": "Leverage local sacrifice",
+      "items": [
+        {"title":"November 2025 E-SPLOST","detail":"Voters approved the one-cent education sales tax: 3,263 Yes (76.15%) and 1,022 No. The authorization allows up to $45 million of collections for no more than 20 quarters and up to $50 million of general-obligation bonds.","status":"VERIFIED","source_ids":["sumter-2025-ballot","sumter-2025-election-results"]},
+        {"title":"Athletic, technology and school capital","detail":"The authorized list includes an Athletic and Sports Complex plus devices, servers, cabling, wireless access points, VoIP, software and instructional/safety systems. Major private investment should first identify the funded scope and remaining gaps rather than duplicate approved assets.","status":"VERIFIED","source_ids":["sumter-2025-ballot"]},
+        {"title":"Existing public-capital programs","detail":"The FY2024 school audit carries the prior $30 million E-SPLOST program through June 2027, and the county FY2024–2025 budget included $1.354 million of T-SPLOST resources. Authorization and budget availability do not prove implementation status.","status":"VERIFIED","source_ids":["sumter-schools-fy2024-audit","sumter-budget-2025"]}
+      ]
+    },
+    {
+      "id": "americus-data-center-linked-opportunity",
+      "title": "What a Data Center Could Help Solve",
+      "icon": "🔗",
+      "kicker": "Evidence-linked options, not promises",
+      "intro": "Developer-required infrastructure, temporary construction jobs and one-time gifts without operating plans do not count here as durable community benefit.",
+      "items": [
+        {"title":"Sustain the people who make youth facilities work","detail":"Link: school capital plus youth-pathway evidence. Potential response: shared-use agreements, transport, qualified instructors, safeguarding, maintenance and recurring program support—not another unfunded building.","status":"INFERENCE","source_ids":["sumter-2025-ballot","sumter-emc-youth","ignite-cca"]},
+        {"title":"Make technical pathways portable","detail":"Link: SGTC, GSW, Ignite and existing computing instruction. Potential response: instructor capacity, apprenticeships, credential equipment and community-owned labs whose skills serve multiple employers.","status":"INFERENCE","source_ids":["sgtc-gsw-partnership","gsw-server","ignite-cca"]},
+        {"title":"Leave the public utility stronger","detail":"Link: audited enterprise finances and planned water capital. Potential response: pay full attributable project costs and separately negotiate reusable system improvements, household-resilience measures and transparent long-term maintenance funding.","status":"INFERENCE","source_ids":["city-americus-fy2024-acfr","gefa-dwsrf-2025"]},
+        {"title":"Activate existing buildings and downtown investment","detail":"Link: downtown streetscape funding and unresolved former Americus High reuse. Potential response: fund due diligence and reuse only after title, condition, environmental, ownership and operating questions are resolved.","status":"INFERENCE","source_ids":["americus-downtown-streetscape","former-americus-high-report"]},
+        {"title":"Diversify beyond one major project","detail":"Link: prepared industrial land, institutions and manufacturing activity. Potential response: a community-controlled endowment, supplier development and multi-employer recruitment with public outcome reporting.","status":"INFERENCE","source_ids":["southerfield-grad-select","select-sumter-current","sgtc-gsw-partnership"]}
+      ]
+    },
+    {
+      "id": "americus-resident-funding",
+      "title": "What Residents Are Being Asked to Fund",
+      "icon": "🗳️",
+      "kicker": "Public commitments",
+      "table": {
+        "columns": ["November 2025 school measure", "Authorized amount or scope", "Evidence"],
+        "rows": [
+          ["One-cent E-SPLOST", "Up to 20 calendar quarters", "VERIFIED"],
+          ["General-obligation bonds", "Up to $50,000,000 aggregate principal", "VERIFIED"],
+          ["E-SPLOST collections", "Up to $45,000,000", "VERIFIED"],
+          ["Athletic and Sports Complex", "Expressly included in the authorized capital-project list", "VERIFIED"],
+          ["Technology capital", "Devices, servers, cabling, wireless access points, VoIP, software and instructional/safety systems expressly included", "VERIFIED"]
+        ]
+      },
+      "items": [
+        {"title":"2021 school E-SPLOST program","detail":"The FY2024 audit carries a $30 million authorized project program through June 2027, including facilities/site work, technology, buses, books, equipment and demolition. This is the existing program—not proof of the separate 2025 vote.","status":"VERIFIED","source_ids":["sumter-schools-fy2024-audit"]},
+        {"title":"November 2025 proposition","detail":"The official sample ballot authorizes a one-cent education sales tax for no more than 20 calendar quarters, up to $45 million in collections, and up to $50 million aggregate principal of School District general-obligation bonds. Collections may fund listed capital projects, debt service or both.","status":"VERIFIED","source_ids":["sumter-2025-ballot"]},
+        {"title":"Official passage result","detail":"Georgia Secretary of State official results show the education continuation passed with 3,263 Yes votes (76.15%) and 1,022 No votes (23.85%); all 11 participating precincts reported. Results were last updated November 21, 2025.","status":"VERIFIED","source_ids":["sumter-2025-election-results"]},
+        {"title":"Authorization is not expenditure","detail":"The $50 million bond ceiling is not the same as the $45 million E-SPLOST collection ceiling. Voter authorization also does not establish that every listed project is funded, designed, contracted or under construction.","status":"INFERENCE","source_ids":["sumter-2025-ballot","sumter-2025-election-results"]},
+        {"title":"County transportation sales tax","detail":"The existing FY2024–2025 county budget showed $1.1 million of T-SPLOST tax revenue and $1.354 million of total T-SPLOST resources including fund balance and interest.","status":"VERIFIED","source_ids":["sumter-budget-2025"]}
+      ]
+    },
+    {
+      "id": "americus-public-financial-baseline",
+      "title": "Public Financial Baseline",
+      "icon": "🏛️",
+      "kicker": "Audits and capacity",
+      "table": {
+        "columns": ["Entity", "Latest usable public record", "Key signal", "Evidence"],
+        "rows": [
+          ["Sumter County", "FY2024 audit", "$69.97M primary-government net position; repeat control findings", "VERIFIED"],
+          ["City of Americus", "FY2024 ACFR", "Water/Sewer operating income $2.67M; $2.85M transfers out; ending net position $12.40M; material weakness", "VERIFIED"],
+          ["Sumter County Schools", "FY2024 audit", "$24.48M governmental fund balance; one federal budget-control finding", "VERIFIED"],
+          ["Furlow Charter School", "FY2025 audit", "$7.04M fund balance; prior-period OPEB restatement", "VERIFIED"],
+          ["South Georgia Technical College", "FY2025 TCSG/state context", "Institution-only audited schedule not located", "RESEARCH NEEDED"],
+          ["Georgia Southwestern", "FY2025 USG schedules", "$18.46M ending net position; institution tables are unaudited within audited USG report", "VERIFIED"],
+          ["Payroll Development Authority", "No standalone current audit located", "County classifies PDA as a related organization", "RESEARCH NEEDED"]
+        ]
+      },
+      "items": [
+        {"title":"Sumter County FY2024","detail":"The audit issued an unmodified opinion. Primary-government assets were $88.05M, liabilities $18.99M and net position $69.97M. Governmental activities fell $4.81M; the audit identified material weaknesses and repeat findings for segregation of duties and capital assets.","status":"VERIFIED","source_ids":["sumter-county-fy2024-audit"],"metrics":[{"label":"Cash and equivalents","value":"$22.65M primary government"},{"label":"Bonds payable","value":"$11.14M current + noncurrent"},{"label":"Unrestricted net position","value":"$4.01M primary government"}]},
+        {"title":"City General Fund FY2024","detail":"On the modified-accrual budgetary basis, actual revenues were $13.20M and expenditures were $16.28M. Net transfers and other financing of $3.59M produced a $503,313 increase and a $4.35M ending fund balance. The General Fund received $5.53M of transfers and transferred out $1.95M.","status":"VERIFIED","source_ids":["city-americus-fy2024-acfr"]},
+        {"title":"City Water and Sewer Fund FY2024","detail":"On the accrual basis, operating revenues were $9.01M and operating expenses $6.33M, producing $2.67M operating income. After nonoperating activity and net transfers out of $2.77M, net position declined $502,441 to $12.40M. This does not prove spare physical capacity or justify a rate prediction.","status":"VERIFIED","source_ids":["city-americus-fy2024-acfr"],"metrics":[{"label":"Cash + restricted cash","value":"$6.62M"},{"label":"Revenue bonds","value":"$14.44M current + noncurrent"},{"label":"Unrestricted net position","value":"$6.34M"},{"label":"Net capital assets","value":"$19.12M"}]},
+        {"title":"City personnel-cost evidence","detail":"The FY2024 MD&A's 'Expenses by Type - 2024' chart directly reports Salaries and Benefits as 37% of the expense categories shown. The chart does not disclose its dollar denominator or separate salary from benefit expense, so 37% is preserved as a stated combined share and is not applied to the General Fund alone. The pension contribution RSI separately reports $8,989,588 of covered payroll and a $775,429 contribution, or 8.63%; the net-pension-liability RSI uses a different $7,560,887 measurement-period payroll. Covered payroll corroborates scale but is not salary expense.","status":"VERIFIED","source_ids":["city-americus-fy2024-acfr"],"metrics":[{"label":"Salaries as % of operating expenditures","value":"Not separately reported"},{"label":"Benefits as % of operating expenditures","value":"Not separately reported"},{"label":"Combined salaries + benefits","value":"37% of MD&A chart categories; denominator dollars not stated"},{"label":"Contribution-schedule covered payroll","value":"$8.99M; 29.10% benchmark versus $30.89M government-wide expenses"},{"label":"Pension accounting expense","value":"$(111,525); actuarial accounting measure, not cash benefit spend"}]},
+        {"title":"City audit-control risk","detail":"The FY2024 audit issued an unmodified opinion but reported a material weakness and six financial-statement findings. Five prior-year findings remained unresolved. Water/Sewer adjustments included a $1.057M increase to the doubtful-accounts allowance and corrections to expenses, receivables, revenues and capital assets. Human financial review is required before relying on reported balances for a major infrastructure commitment.","status":"VERIFIED","source_ids":["city-americus-fy2024-acfr"]},
+        {"title":"PDA financial limit","detail":"No current standalone PDA audit or verified $750M issuance record was found. The County audit identifies the PDA as a related organization but does not establish independent PDA capacity or Liberty-specific bond obligations.","status":"RESEARCH NEEDED","source_ids":["sumter-county-fy2024-audit"]}
+      ]
+    },
+    {
+      "id": "americus-school-financial-capacity",
+      "title": "School Financial Capacity",
+      "icon": "🎓",
+      "kicker": "Recurring cost test",
+      "table": {
+        "columns": ["Measure", "Sumter County Schools FY2024", "Furlow FY2025"],
+        "rows": [
+          ["Revenue", "$74,407,318 governmental funds", "$10,149,703 governmental fund"],
+          ["Expenditures", "$68,973,490 governmental funds", "$9,438,502 governmental fund"],
+          ["Direct salary expense", "Not reported; MD&A omitted and no object-level salary schedule", "Not reported; MD&A omitted and no object-level salary schedule"],
+          ["Salaries % of operating expenditures", "Not supportable from this audit", "Not supportable from this audit"],
+          ["Direct benefits expense", "Not reported as a complete operating-benefit total", "Not reported as a complete operating-benefit total"],
+          ["Direct salary + benefits", "Not reported", "Not reported"],
+          ["Combined personnel %", "Not supportable from this audit", "Not supportable from this audit"],
+          ["GASB pension expense", "$7,646,878 TRS + PSERS; 12.06% of $63.41M government-wide expenses", "$1,417,298 TRS + PSERS; 13.96% of $10.15M government-wide expenses"],
+          ["GASB OPEB expense", "$(1,885,596); -2.97% of government-wide expenses", "$856,778; 8.44% of government-wide expenses"],
+          ["Net pension + OPEB accounting expense", "$5,761,282; 9.09% of government-wide expenses", "$2,274,076; 22.40% of government-wide expenses"],
+          ["Instruction", "$30,322,150 · 43.96%", "$6,027,659 · 63.86%"],
+          ["Administration", "$4,929,974 · 7.15%", "$764,448 · 8.10%"],
+          ["Fund balance", "$24,475,466 total; $15,526,782 General Fund", "$7,041,325; $6,885,980 unassigned"],
+          ["TRS contribution-schedule covered payroll", "$21,751,233; current-year contribution basis; 31.54% benchmark versus total fund expenditures", "$3,948,820; current-year contribution basis; 41.84% benchmark versus total fund expenditures"],
+          ["TRS liability-schedule covered payroll", "$21,347,178; prior measurement-period basis", "$3,831,186; prior measurement-period basis"],
+          ["OPEB contribution-schedule covered payroll", "$23,078,833; current-year covered-employee basis; 33.46% benchmark versus total fund expenditures", "$3,658,239; current-year covered-employee basis; 38.76% benchmark versus total fund expenditures"],
+          ["PSERS liability-schedule covered payroll", "$1,578,226; State-funded plan, measurement-period basis", "$163,569; State-funded plan, measurement-period basis"],
+          ["Enrollment", "Research Needed for matching audit-year ADM", "585 in SCSC materials"],
+          ["Audit signal", "Unmodified; one federal significant deficiency", "Unmodified; prior OPEB restatement"]
+        ]
+      },
+      "items": [
+        {"title":"Consistent personnel-cost logic","detail":"Direct salary expense controls when reported; neither school audit reports it. Both auditor reports say MD&A was omitted, and neither supplies an object-level salary/benefit expenditure schedule. Covered payroll is therefore displayed only as a corroborating basis, with TRS, PSERS and OPEB schedules kept separate because their populations and measurement periods differ. Salaries-and-benefits-payable balances are liabilities and are not treated as annual expense.","status":"VERIFIED","source_ids":["sumter-schools-fy2024-audit","furlow-fy2025-audit"]},
+        {"title":"What the percentages mean","detail":"Instruction and administration shares use total governmental-fund expenditures as the denominator. Administration combines general, school and business administration. Pension and OPEB percentages use government-wide expenses and are GASB actuarial accounting measures, not cash benefit spending or a substitute for actual personnel expense. Covered-payroll benchmark percentages use total governmental-fund expenditures and are not salary-expense percentages.","status":"VERIFIED","source_ids":["sumter-schools-fy2024-audit","furlow-fy2025-audit"]},
+        {"title":"Operating sustainability test","detail":"A one-time lab or building grant does not prove either LEA can sustain specialized teachers, transportation, maintenance, subscriptions and equipment refresh for decades. Any new program needs a recurring operating plan.","status":"INFERENCE","source_ids":["sumter-schools-fy2024-audit","furlow-fy2025-audit"]},
+        {"title":"Furlow oversight","detail":"SCSC's 2024–25 framework rated Furlow 100 on fiscal viability and 70 on financial management/oversight, producing an overall Approaches Standards result. Its current charter contract runs 2025–2030.","status":"VERIFIED","source_ids":["furlow-scsc-cpf","furlow-scsc-profile"]}
+      ]
+    },
+    {
+      "id": "americus-liberty-facts",
+      "title": "Liberty Project — Verified Facts",
+      "icon": "🏗️",
+      "kicker": "Binding document first",
+      "items": [
+        {"title":"Four-phase campus","detail":"The signed July 1, 2026 agreement covers about 102 acres and defines full buildout as at least approximately 400,000 square feet: an innovation center, logistics building, substation and four data-center buildings. Phase 1 is due by December 2029 and phases 2–4 by December 2033.","status":"VERIFIED","source_ids":["liberty-agreement"]},
+        {"title":"Investment and operations","detail":"Liberty committed to approximately $1B–$5B of investment and at least 30 years of continuous operation, with annual reporting in years 2–5 and contractual performance protections.","status":"VERIFIED","source_ids":["liberty-agreement"]},
+        {"title":"Land transaction","detail":"The PDA agreed to convey property with an acknowledged $469,000 fair value for $1, subject to performance and repurchase provisions. The public agreement is not itself a complete tax-abatement, PILOT or bond record.","status":"VERIFIED","source_ids":["liberty-agreement"]},
+        {"title":"Tenant and operating model","detail":"No primary record reviewed identifies Meta, Google, OpenAI or another hyperscaler. Hyperscale, AI/HPC, enterprise, colocation and multi-tenant use remain possibilities only.","status":"RESEARCH NEEDED","source_ids":["liberty-agreement"]},
+        {"title":"Rendering is conceptual","detail":"The preliminary draft rendering illustrates phasing, roads, buildings, parking and a switchyard, but it is not an engineered civil plan or proof of fit on developable uplands.","status":"VERIFIED","source_ids":["liberty-rendering"]}
+      ]
+    },
+    {
+      "id": "americus-jobs",
+      "title": "Jobs: What Is Actually Being Created?",
+      "icon": "👷",
+      "kicker": "Attribution before counting",
+      "table": {
+        "columns": ["Category", "Public evidence", "Status"],
+        "rows": [
+          ["Construction", "Approximately 250 construction workers in agreement", "VERIFIED"],
+          ["Direct data-center operations", "Occupations and employer of record not defined", "RESEARCH NEEDED"],
+          ["Community-benefit employment", "No binding positions identified", "RESEARCH NEEDED"],
+          ["Supply chain / indirect", "No audited or contracted count", "RESEARCH NEEDED"],
+          ["Temporary program / installation", "Must be separated from permanent jobs", "INFERENCE"],
+          ["Agreement job commitment", "At least 150 new full-time jobs, $80,000 average annual wage, due within two years after final completion/CO", "VERIFIED"]
+        ]
+      },
+      "items": [
+        {"title":"Jobs Attribution Test","detail":"For every counted job, disclose employer, occupation, work location, direct/contract/affiliate status, duration, full-time status, permanence, incentive treatment and whether it appears in another count.","status":"INFERENCE","source_ids":["liberty-agreement"]}
+      ]
+    },
+    {
+      "id": "americus-utility-benefit",
+      "title": "Utility Strength & Community Benefit",
+      "icon": "💧",
+      "kicker": "Residents before rate claims",
+      "items": [
+        {"title":"Municipal water and sewer requirement","detail":"The agreement prohibits private wells and requires application for City water and sewer service. Liberty is responsible for project infrastructure unless the City determines otherwise.","status":"VERIFIED","source_ids":["liberty-agreement"]},
+        {"title":"Existing public water priority","detail":"Georgia's FY2025 DWSRF list reports a $12M Americus drinking-water project intended to serve more than 200 customers from a contaminated private system.","status":"REPORTED","source_ids":["gefa-dwsrf-2025"]},
+        {"title":"Community-benefit test","detail":"Before commitments are treated as beneficial, a utility professional should model capacity, upgrades, capital responsibility, debt, reserves, operating cost, rate allocation and potential effects on existing customers. Do not promise lower rates.","status":"RESEARCH NEEDED","source_ids":["americus-utility","liberty-agreement"]}
+      ]
+    },
+    {
+      "id": "americus-regional-energy",
+      "title": "Regional Energy Impact",
+      "icon": "⚡",
+      "kicker": "Grid geography crosses borders",
+      "items": [
+        {"title":"Southwest Georgia network context","detail":"Existing research places Americus within a regional transmission network involving the North Americus–Palmyra corridor, Crisp public power, Ellaville municipal service, Sumter EMC and Georgia's Integrated Transmission System. This context does not establish deliverable project capacity.","status":"VERIFIED","source_ids":["georgia-power-transmission","meag-its","sumter-emc","sertp"]},
+        {"title":"Project-specific power remains unknown","detail":"The bounded search found no Liberty will-serve letter, megawatt schedule, source substation, firm-service agreement, transmission study, upgrade plan or cost-allocation record. The rendering's substation symbol is not capacity evidence.","status":"RESEARCH NEEDED","source_ids":["liberty-agreement","liberty-rendering"]},
+        {"title":"Regional generation is not project supply","detail":"Previously identified solar/storage interconnection activity near the Americus corridor is regional context only and must not be presented as serving Liberty.","status":"INFERENCE","source_ids":["sertp"]}
+      ]
+    },
+    {
+      "id": "americus-environment",
+      "title": "Environmental & Site Constraints",
+      "icon": "🌿",
+      "kicker": "Delineation is not a final permit",
+      "items": [
+        {"title":"Wetlands and streams","detail":"Terracon delineated approximately 61.47 wetland acres—59.16% of the approximately 103.91-acre study area—plus about 1,862 linear feet of perennial stream and 69 feet of ephemeral stream.","status":"VERIFIED","source_ids":["terracon-wetlands","terracon-map"]},
+        {"title":"Jurisdiction and permitting","detail":"Terracon believed jurisdictional waters were present, but only the U.S. Army Corps can make a final jurisdictional determination. Impacts may require Section 404 authorization and mitigation.","status":"VERIFIED","source_ids":["terracon-wetlands"]},
+        {"title":"Source-quality conflict","detail":"The report title, addressee, maps and site description identify Americus, but one sentence says the field survey covered a project area in Unadilla. This apparent template/location error requires confirmation with Terracon or the commissioning authority.","status":"RESEARCH NEEDED","source_ids":["terracon-wetlands"]},
+        {"title":"Civil reconciliation","detail":"No public final plan reviewed reconciles wetland avoidance, fill, mitigation, stormwater, roads, parking, buildings and substation footprints by phase.","status":"RESEARCH NEEDED","source_ids":["terracon-map","liberty-rendering"]}
+      ]
+    },
+    {
+      "id": "americus-cooling-water",
+      "title": "Cooling & Water",
+      "icon": "🧊",
+      "kicker": "Binding guardrails, unknown design",
+      "items": [
+        {"title":"Cooling restriction","detail":"The agreement prohibits open-loop and once-through cooling and requires closed-loop or other technology intended to minimize water consumption.","status":"VERIFIED","source_ids":["liberty-agreement"]},
+        {"title":"Actual cooling architecture","detail":"Closed-loop chilled water, dry cooling, hybrid cooling, direct-to-chip liquid cooling and immersion are industry examples—not evidence of Liberty's selected system.","status":"RESEARCH NEEDED","source_ids":["ocp-academy"]},
+        {"title":"Sustainable capacity","detail":"Available utility service is not the same as environmentally and politically sustainable capacity. Peak-day demand, wastewater return, drought response and competing residential/agricultural needs need professional review.","status":"INFERENCE","source_ids":["liberty-agreement","terracon-wetlands"]}
+      ]
+    },
+    {
+      "id": "americus-governance",
+      "title": "Data Center Governance & Ordinance Readiness",
+      "icon": "⚖️",
+      "kicker": "Rules before irreversible commitments",
+      "items": [
+        {"title":"Current classification: Proposed / under review","detail":"The local folder contains an unsigned 18-month joint-resolution draft with blank adoption date and signatures. The bounded official search did not locate an adopted City or County data-center-specific ordinance or adopted moratorium.","status":"RESEARCH NEEDED","source_ids":["moratorium-draft","sumter-agendas"]},
+        {"title":"Controls to evaluate","detail":"Definitions, zoning districts, special-use review, setbacks, buffers, low-frequency noise, lighting, generators, emissions, cooling/water, wastewater, BESS/fire, transmission, construction traffic, wetlands, decommissioning, financial assurance, expansion and annual reporting all need a verified code crosswalk.","status":"INFERENCE","source_ids":["moratorium-draft","liberty-agreement"]},
+        {"title":"Process recommendation","detail":"Publish plain-language agreements and technical summaries; hold public technical briefings and ordinance workshops; separate developer claims from binding obligations; and disclose verified community-benefit commitments.","status":"INFERENCE","source_ids":["moratorium-draft","citizens-event"]}
+      ]
+    },
+    {
+      "id": "americus-public-trust",
+      "title": "Public Trust / Community Concerns",
+      "icon": "🤝",
+      "kicker": "Process is part of readiness",
+      "items": [
+        {"title":"Community concern","detail":"Community sources report concern about the timing, completeness and transparency of public communication surrounding the project and are organizing informational meetings and a moratorium petition.","status":"REPORTED","source_ids":["citizens-event","scc4t-petition"]},
+        {"title":"What is not established","detail":"The reviewed material does not prove intentional concealment, legal notice failure, unanimous opposition or community consent. Meeting notices, votes, correspondence and open-records responses require record-by-record review.","status":"RESEARCH NEEDED","source_ids":["sumter-agendas","scc4t-records"]},
+        {"title":"Readiness implication","detail":"Unresolved communication and ordinance questions can create execution risk even when technical feasibility later proves adequate.","status":"INFERENCE","source_ids":["citizens-event","moratorium-draft"]}
+      ]
+    },
+    {
+      "id": "americus-education-workforce",
+      "title": "Education & Workforce",
+      "icon": "🧰",
+      "kicker": "Existing institutions, unverified project links",
+      "table": {
+        "columns": ["Institution", "Existing community role", "Liberty-specific evidence", "Status"],
+        "rows": [
+          ["Sumter County Schools", "K–12 system; Ignite College & Career Academy", "No MOU or official Liberty announcement located", "RESEARCH NEEDED"],
+          ["South Georgia Technical College", "Seven-county technical/workforce institution", "No MOU or official Liberty announcement located", "RESEARCH NEEDED"],
+          ["Georgia Southwestern", "Public university with computing and IT assets", "No MOU or official Liberty announcement located", "RESEARCH NEEDED"],
+          ["Furlow Charter School", "Independent state-chartered K–12 LEA", "No project-specific evidence located", "RESEARCH NEEDED"],
+          ["Southland Academy", "Private K–12 institution", "No project-specific evidence located", "RESEARCH NEEDED"]
+        ]
+      },
+      "items": [
+        {"title":"Existing partnership base","detail":"SGTC, GSW, Sumter County Schools and community partners already collaborate on local postsecondary pathways and Ignite College & Career Academy. That is community capacity, not proof of a Liberty partnership.","status":"VERIFIED","source_ids":["sgtc-gsw-partnership","ignite-cca"]},
+        {"title":"GSW FY2025 context","detail":"USG's institution schedules report $22.66M operating revenue, $53.93M operating expense, $21.35M state appropriations, $9.90M federal nonoperating grants, $7.41M increase in net position and $18.46M ending net position for GSW. The institution tables are unaudited within the audited system report.","status":"VERIFIED","source_ids":["usg-fy2025-report"]},
+        {"title":"SGTC/TCSG context","detail":"The state FY2025 report shows a $489.11M TCSG legislative appropriation, while TCSG's annual report describes SGTC's seven-county service area. A current SGTC-only audited schedule was not located.","status":"VERIFIED","source_ids":["state-fy2025-budget-report","tcsg-annual-report"]}
+      ]
+    },
+    {
+      "id": "americus-youth-technology",
+      "title": "Youth & Technology",
+      "icon": "🤖",
+      "kicker": "Belonging to creation",
+      "items": [
+        {"title":"Development pathway","detail":"A practical pathway is belonging → technology exposure → technology literacy → creation → credentials → paid work. Programming may include arts, recreation, robotics, maker work, electronics, coding, AI creation and mentoring.","status":"INFERENCE","source_ids":["americus-sumter-plan","ignite-cca"]},
+        {"title":"Middle-school focus","detail":"Ages approximately 11–15 merit dedicated engagement, safe access, transportation and qualified staffing. This is youth development—not marketing to children and not a claim that technology solves structural social issues.","status":"INFERENCE","source_ids":["americus-sumter-plan"]},
+        {"title":"Operating plan first","detail":"Any facility proposal must fund instructors, safeguarding, transportation, food, insurance, utilities, maintenance, subscriptions and equipment replacement beyond the opening grant.","status":"INFERENCE","source_ids":["sumter-schools-fy2024-audit","furlow-fy2025-audit"]}
+      ]
+    },
+    {
+      "id": "americus-asset-reuse",
+      "title": "Community Asset Reuse",
+      "icon": "🏫",
+      "kicker": "Use what the community already has",
+      "table": {
+        "columns": ["Asset/path", "What is known", "Decision gate"],
+        "rows": [
+          ["Former Americus High", "2023 reporting said school use for athletics and planned community-center use when funded", "Current owner, legal availability, condition and rehabilitation cost"],
+          ["Furlow option A", "Remain at current campus", "Long-term facility and program sustainability"],
+          ["Furlow option B", "Explore shared services/local authorization at 2030 decision point", "SCSC, LEA and community approval"],
+          ["Furlow option C", "Explore consolidated K–12 use of former high school", "Ownership, rehabilitation, operating model and approvals"],
+          ["Downtown youth hub", "Alternative reuse concept", "Available building, access, staffing and operations"],
+          ["Sports complex", "VERIFIED public capital priority", "Shared-use MOU before duplicating facilities"]
+        ]
+      },
+      "items": [
+        {"title":"Former high school status","detail":"The bounded search found media evidence of continued school athletic use and a future community-center concept, but did not establish current title ownership, legal availability or building condition. The asset cannot yet be promised for Furlow or a youth hub.","status":"RESEARCH NEEDED","source_ids":["former-americus-high-report"]},
+        {"title":"Ownership test","detail":"For each proposed major benefit, ask who owns it after Liberty leaves. Prefer a school system, SGTC, municipality, public authority or protected community trust over a developer-controlled facility behind a secure campus.","status":"INFERENCE","source_ids":["liberty-agreement"]}
+      ]
+    },
+    {
+      "id": "americus-endowment",
+      "title": "Community Resilience Endowment",
+      "icon": "🌳",
+      "kicker": "Illustrative—not a Liberty commitment",
+      "items": [
+        {"title":"One community-controlled fund","detail":"Study a Sumter Community Resilience & Opportunity Endowment with restricted Energy Resilience, Youth & Education, Workforce, and Emergency/Community Infrastructure accounts. Liberty funds; the community owns; successor obligations follow the asset.","status":"INFERENCE","source_ids":["liberty-agreement"]},
+        {"title":"Illustrative scale","detail":"A purely illustrative $500,000–$1,000,000 per approved MW would equal $50M–$100M at 100 MW, plus a possible per-MWh operating contribution and measurable-impact adders. Liberty MW is unknown, so this is not a project valuation or commitment.","status":"INFERENCE","source_ids":["liberty-agreement"]},
+        {"title":"Energy-choice design","detail":"Potential resident options include rooftop efficiency/solar/storage, community subscription/storage, resilience-only upgrades, or an equivalent lawful benefit. Measure energy-burden reduction rather than panel count.","status":"INFERENCE","source_ids":["americus-utility"]}
+      ]
+    },
+    {
+      "id": "americus-tech-hub",
+      "title": "Southwest Georgia Technology Hub",
+      "icon": "🛰️",
+      "kicker": "The anchor should attract the next employer",
+      "items": [
+        {"title":"Potential cluster","detail":"A long-term strategy could connect SGTC, GSW, NanoPV, utilities, agriculture, fiber, industrial parks and digital infrastructure to recruit 30–100-person firms in controls, cybersecurity, GIS, drones, ag-tech, robotics, energy systems, networking and cooling technology.","status":"INFERENCE","source_ids":["sgtc-gsw-partnership","gsw-server","nanopv"]},
+        {"title":"Landing space gap","detail":"No evidence reviewed establishes a community-owned, fiber-ready accelerator with flexible offices, secure networking, lab/maker space and shared access to SGTC/GSW. Identify or designate such space before claiming a hub exists.","status":"RESEARCH NEEDED","source_ids":["americus-sumter-plan"]},
+        {"title":"Regional—not merged","detail":"Leslie may be studied as a complementary drone, logistics and ag-tech node while Americus anchors education, computing, manufacturing and energy. Formal collaboration is not established.","status":"INFERENCE","source_ids":["americus-sumter-plan"]}
+      ]
+    },
+    {
+      "id": "americus-thirty-year-outcomes",
+      "title": "What Should Remain After 30 Years",
+      "icon": "🌳",
+      "kicker": "Durability and operating ownership",
+      "items": [
+        {"title":"A stronger public utility","detail":"Reusable infrastructure, reserves and transparent cost allocation should remain with the public system; project-only facilities and uncompensated operating burdens should not be counted as community benefit.","status":"INFERENCE","source_ids":["city-americus-fy2024-acfr","gefa-dwsrf-2025"]},
+        {"title":"Sustained youth and school capacity","detail":"Facilities should retain public access, qualified staff, transport, maintenance and technology replacement funding after initial construction and independent of the developer's brand.","status":"INFERENCE","source_ids":["sumter-2025-ballot","sumter-schools-fy2024-audit"]},
+        {"title":"Portable skills and multiple employers","detail":"Credentials, instructors, laboratories and apprenticeships should prepare residents for data infrastructure, manufacturing, health care and other employers—not a single tenant's proprietary needs.","status":"INFERENCE","source_ids":["sgtc-gsw-partnership","gsw-server","select-sumter-current"]},
+        {"title":"Restored assets under durable local control","detail":"Any reused downtown or school property should have settled title, safe occupancy, a responsible owner and a funded operating plan that survives project ownership changes.","status":"INFERENCE","source_ids":["americus-downtown-streetscape","former-americus-high-report"]},
+        {"title":"Governance and community-controlled capital","detail":"Public reporting capacity and protected endowment principal should remain locally accountable, with spending rules, audits and conflict safeguards independent of one company.","status":"INFERENCE","source_ids":["liberty-agreement","city-americus-fy2024-acfr","sumter-current-agendas"]}
+      ]
+    },
+    {
+      "id": "americus-legacy",
+      "title": "30-Year Community Legacy",
+      "icon": "🕰️",
+      "kicker": "What remains after the ribbon cutting",
+      "items": [
+        {"title":"Durable ownership","detail":"Community-owned utility improvements, educational capacity, rehabilitated public assets and protected endowment principal should remain useful if the operator, tenant or technology changes.","status":"INFERENCE","source_ids":["liberty-agreement"]},
+        {"title":"Recurring operations","detail":"A 30-year project benefit should be tested against 30-year staffing, maintenance, technology refresh, battery replacement, transportation, insurance and program costs.","status":"INFERENCE","source_ids":["liberty-agreement","sumter-schools-fy2024-audit"]},
+        {"title":"Diversification","detail":"Success is not dependence on one employer; it is the community's stronger ability to retain talent and attract multiple additional employers.","status":"INFERENCE","source_ids":["americus-sumter-plan"]}
+      ]
+    },
+    {
+      "id": "americus-challenges",
+      "title": "Challenges to Solve",
+      "icon": "🧭",
+      "kicker": "Decision gates",
+      "items": [
+        {"title":"Technical proof","detail":"Establish electric service, phased load, transmission impacts, water/wastewater capacity, final cooling and a buildable civil plan before describing the project as technically feasible.","status":"RESEARCH NEEDED","source_ids":["liberty-agreement","terracon-wetlands"]},
+        {"title":"Governance proof","detail":"Establish the applicable ordinance, public process, permitting sequence, incentive structure, annual reporting and enforceable community-benefit obligations.","status":"RESEARCH NEEDED","source_ids":["moratorium-draft","sumter-agendas"]},
+        {"title":"Institutional proof","detail":"Obtain board-approved MOUs and sustainable operating budgets before counting education, workforce, youth or shared-use concepts as project benefits.","status":"RESEARCH NEEDED","source_ids":["sgtc-gsw-partnership","ignite-cca"]}
+      ]
+    },
+    {
+      "id": "americus-research-needed",
+      "title": "Research Needed",
+      "icon": "🔎",
+      "kicker": "Unknown is an honest result",
+      "items": [
+        {"title":"Power and delivery","detail":"Liberty MW by phase; serving utility; will-serve; service dates; source substation; transformer/transmission upgrades; study results; firm/interruptible terms; cost responsibility; ramp, harmonics and curtailment requirements.","status":"RESEARCH NEEDED","source_ids":["liberty-agreement"]},
+        {"title":"Environment and water","detail":"Final civil site plan; Corps JD; Section 404 application/permit; mitigation; stormwater; floodplain; developable acreage; phase impacts; cooling design; peak water and wastewater profile.","status":"RESEARCH NEEDED","source_ids":["terracon-wetlands","terracon-map"]},
+        {"title":"Jobs and partnerships","detail":"Job occupations and employers; education MOUs; instructor/program commitments; internships; double-counting safeguards; workforce reporting.","status":"RESEARCH NEEDED","source_ids":["liberty-agreement"]},
+        {"title":"Finance and governance","detail":"Tax abatement/PILOT/bond structure; PDA standalone financials; resolution of City FY2024 audit findings and current enterprise capacity study; adopted ordinance and moratorium status; E-SPLOST implementation schedules; binding community-benefit agreement.","status":"RESEARCH NEEDED","source_ids":["city-americus-fy2024-acfr","sumter-2025-ballot","moratorium-draft"]},
+        {"title":"Reuse","detail":"Former Americus High title owner, legal availability, structural/environmental condition, fields/courts inventory and rehabilitation/operating cost.","status":"RESEARCH NEEDED","source_ids":["former-americus-high-report"]}
+      ]
+    },
+    {
+      "id": "americus-sources",
+      "title": "Sources",
+      "icon": "📚",
+      "kicker": "Direct links and dates",
+      "intro": "Local primary documents are preserved in the demo asset folder; web sources link directly to official or authoritative records.",
+      "items": [
+        {"title":"Local controlling documents","detail":"Signed Liberty agreement (effective July 1, 2026); Terracon wetlands determination (February 10, 2023); 2023 wetland map; preliminary campus rendering; parcel screenshots; unsigned moratorium draft; September 8, 2026 community-event file; and the official November 2025 sample ballot.","status":"VERIFIED","source_ids":["liberty-agreement","terracon-wetlands","terracon-map","liberty-rendering","moratorium-draft","citizens-event","sumter-2025-ballot"]},
+        {"title":"Audits, election results and institutional financials","detail":"City of Americus FY2024; Sumter County FY2024; Sumter County Schools FY2024; Furlow FY2025; SCSC 2024–25 CPF; USG FY2025; State of Georgia FY2025 budget report; and Georgia Secretary of State November 2025 official results.","status":"VERIFIED","source_ids":["city-americus-fy2024-acfr","sumter-county-fy2024-audit","sumter-schools-fy2024-audit","furlow-fy2025-audit","furlow-scsc-cpf","usg-fy2025-report","state-fy2025-budget-report","sumter-2025-election-results"]},
+        {"title":"Source registry","detail":"Open the direct-source registry below. Retrieval dates and evidence roles are retained in this profile data file.","status":"VERIFIED","source_ids":["source-registry"]}
+      ]
+    }
+  ],
+  "sources": [
+    {"id":"liberty-agreement","title":"Economic Development Agreement — PDA and Liberty GA USA LLC","publisher":"Americus-Sumter Payroll Development Authority / Liberty GA USA LLC","date":"2026-07-01","retrieval_date":"2026-09-13","type":"Signed primary document","url":"assets/americus/pda-liberty-development-agreement.pdf"},
+    {"id":"terracon-wetlands","title":"Wetlands Determination — Swett Avenue","publisher":"Terracon Consultants, Inc.","date":"2023-02-10","retrieval_date":"2026-09-13","type":"Primary technical report","url":"assets/americus/wetlands-determination-2023-02-10.pdf"},
+    {"id":"terracon-map","title":"Wetland Delineation Map","publisher":"Terracon Consultants, Inc.","date":"2023-02","retrieval_date":"2026-09-13","type":"Primary technical map","url":"assets/americus/wetland-delineation-map-2023.jpg"},
+    {"id":"liberty-rendering","title":"Preliminary Draft Americus Tech Campus Rendering","publisher":"Project exhibit; preparer not established","date":"Undated","retrieval_date":"2026-09-13","type":"Concept rendering","url":"assets/americus/americus-tech-campus-rendering.jpg"},
+    {"id":"moratorium-draft","title":"Draft Joint Resolution for Data Center Moratorium","publisher":"Draft; City/County adoption not established","date":"Unsigned / undated","retrieval_date":"2026-09-13","type":"Proposed primary document","url":"assets/americus/moratorium-resolution.pdf"},
+    {"id":"citizens-event","title":"What We Know About the Data Center — calendar event","publisher":"Sumter County Citizens for Transparency","date":"2026-09-08","retrieval_date":"2026-09-13","type":"Community source","url":"assets/americus/2026-09-08-what-we-know-about-the-data-center.ics"},
+    {"id":"sumter-2025-ballot","title":"November 4, 2025 Special Election — Sumter County Sample Ballot","publisher":"Americus-Sumter County Board of Elections and Voter Registration","date":"2025-11-04","retrieval_date":"2026-09-13","type":"Official ballot — primary","url":"assets/americus/sources/2025-NOV-sample-ballots.pdf","original_url":"https://sumtercountygaelections.us/archived%202025%20election%20information.html"},
+    {"id":"sumter-2025-election-results","title":"November 4, 2025 Official Results — Sumter County","publisher":"Georgia Secretary of State","date":"2025-11-21","retrieval_date":"2026-09-13","type":"Official election results","url":"https://results.sos.ga.gov/results/public/sumter-county-ga/elections/MunicipalGeneralSpecialElectionPSC11042025"},
+    {"id":"city-americus-fy2023-acfr","title":"City of Americus Annual Comprehensive Financial Report FY2023","publisher":"City of Americus","date":"2023-12-31","retrieval_date":"2026-09-13","type":"Audited financial statements","url":"assets/americus/sources/city-of-americus-fy2023-acfr.pdf","original_url":"https://www.americusga.gov/Departments_Database/Department/Finance/Annual-Comprehensive-Reports/City%20of%20Americus%20ACFR%202023.pdf"},
+    {"id":"city-americus-fy2024-acfr","title":"City of Americus Annual Comprehensive Financial Report FY2024","publisher":"City of Americus","date":"2024-12-31","retrieval_date":"2026-09-13","type":"Audited financial statements","url":"assets/americus/sources/city-of-americus-fy2024-acfr.pdf"},
+    {"id":"sumter-schools-fy2024-audit","title":"Sumter County Schools FY2024 Annual Financial Report","publisher":"Sumter County Schools / Georgia Department of Audits & Accounts","date":"2024-06-30; report 2025-09-04","retrieval_date":"2026-09-13","type":"Audit","url":"https://content.myconnectsuite.com/api/documents/2e58cac1c38a44e2ab12796b0ce0df60.pdf"},
+    {"id":"sumter-schools-esplost","title":"E-SPLOST Information","publisher":"Sumter County Schools","date":"Page current 2026","retrieval_date":"2026-09-13","type":"Official institutional page","url":"https://www.sumterschools.org/esplost"},
+    {"id":"furlow-fy2025-audit","title":"Furlow Charter School FY2025 Financial Report","publisher":"Furlow Charter School / CVIOG repository","date":"2025-06-30","retrieval_date":"2026-09-13","type":"Audit","url":"https://ted.cviog.uga.edu/financial-documents/sites/default/files/budgetdoc/financial-report/school-district-furlow-charter-school-fy2025-financial-report.pdf"},
+    {"id":"furlow-scsc-cpf","title":"SCSC Comprehensive Performance Framework 2024–2025","publisher":"State Charter Schools Commission of Georgia","date":"2024–2025","retrieval_date":"2026-09-13","type":"Official oversight report","url":"https://scsc.georgia.gov/document/document/all-schools-cpf-2024-2025pdf/download"},
+    {"id":"furlow-scsc-profile","title":"Furlow Charter School Profile","publisher":"State Charter Schools Commission of Georgia","date":"Current charter 2025–2030","retrieval_date":"2026-09-13","type":"Official oversight page","url":"https://scsc.georgia.gov/locations/furlow-charter-school"},
+    {"id":"sumter-county-fy2024-audit","title":"Sumter County FY2024 Financial Report","publisher":"Sumter County / CVIOG repository","date":"2024-06-30; report 2024-12-31","retrieval_date":"2026-09-13","type":"Audit","url":"https://ted.cviog.uga.edu/financial-documents/sites/default/files/budgetdoc/financial-report/county-sumter-fy2024-financial-report.pdf"},
+    {"id":"usg-fy2025-report","title":"University System of Georgia FY2025 Annual Financial Report","publisher":"University System of Georgia","date":"2025-06-30","retrieval_date":"2026-09-13","type":"Audited system report; institution schedules unaudited","url":"https://pxl-usgedu.terminalfour.net/prod01/channel_4/media/usg/fiscal-affairs-/financial-reporting/USG_Annual_Financial_Report_(document)_FY25_(Web_Version).pdf"},
+    {"id":"state-fy2025-budget-report","title":"State of Georgia Budgetary Compliance Report FY2025","publisher":"State Accounting Office","date":"2025-06-30","retrieval_date":"2026-09-13","type":"Official state financial report","url":"https://sao.georgia.gov/document/document/fy25grrrfinalv2101525-securedpdf/download"},
+    {"id":"tcsg-annual-report","title":"TCSG Annual Report","publisher":"Technical College System of Georgia","date":"2025","retrieval_date":"2026-09-13","type":"Official institutional report","url":"https://www.tcsg.edu/wp-content/uploads/2025/07/Annual_Report.pdf"},
+    {"id":"sgtc-gsw-partnership","title":"Two Great Choices, One Great Community","publisher":"South Georgia Technical College","date":"2026","retrieval_date":"2026-09-13","type":"Official institutional report","url":"https://www.southgatech.edu/about-sgtc/latest-news/two-great-choices-one-great-community-gsw-and-sgtc-strengthen-partnership-at-homecoming-celebration"},
+    {"id":"ignite-cca","title":"Ignite College & Career Academy — Who We Are","publisher":"Ignite College & Career Academy","date":"Page current 2026","retrieval_date":"2026-09-13","type":"Official institutional page","url":"https://www.ignitecca.com/who-we-are.php"},
+    {"id":"former-americus-high-report","title":"Residents call for changes at the old Americus High School","publisher":"WALB","date":"2023-11-13","retrieval_date":"2026-09-13","type":"Reputable journalism","url":"https://www.walb.com/2023/11/13/future-plans-old-americus-high-school/"},
+    {"id":"sumter-agendas","title":"Sumter County Agenda Center","publisher":"Sumter County","date":"Current 2026","retrieval_date":"2026-09-13","type":"Official local records","url":"https://www.sumtercountyga.us/agendacenter"},
+    {"id":"americus-sumter-plan","title":"Americus–Sumter County Comprehensive Plan Update 2023–2027","publisher":"Georgia Department of Community Affairs / local governments","date":"2022","retrieval_date":"2026-08-30","type":"Official plan","url":"https://dca.georgia.gov/document/plans/sumter-county-city-americus-plan-update-2022/download"},
+    {"id":"source-registry","title":"Americus Deep-Pilot Source Registry","publisher":"Community Forward Georgia","date":"2026-09-13","retrieval_date":"2026-09-13","type":"Internal registry","url":"data/americus-source-registry.json"},
+    {"id":"americus-finance","title":"City of Americus Finance","publisher":"City of Americus","date":"Current 2026","retrieval_date":"2026-08-30","type":"Official","url":"https://www.americusga.gov/finance/index.php"},
+    {"id":"americus-utility","title":"City Utility Services","publisher":"City of Americus","date":"Current 2026","retrieval_date":"2026-08-30","type":"Official","url":"https://www.americusga.gov/government/departments/finance/utility_billing.php"},
+    {"id":"gefa-dwsrf-2025","title":"FY2025 DWSRF Fundable List","publisher":"Georgia Environmental Finance Authority","date":"FY2025","retrieval_date":"2026-08-30","type":"Official state data","url":"https://gefa.georgia.gov/document/document/fy2025-dwsrf-fundable-list/download"},
+    {"id":"sumter-budget-2025","title":"Sumter County FY2024–2025 Budget","publisher":"Sumter County","date":"2024-07-18","retrieval_date":"2026-08-30","type":"Official budget","url":"https://www.sumtercountyga.us/DocumentCenter/View/1850/FY-2024-2025-Budget-PDF"},
+    {"id":"georgia-power-transmission","title":"Transmission Expansions & Upgrades","publisher":"Georgia Power","date":"Current 2026","retrieval_date":"2026-08-30","type":"Official utility","url":"https://www.georgiapower.com/about/grid-reliability/grid-improvements/grid-projects/transmission-projects.html"},
+    {"id":"meag-its","title":"Integrated Transmission System","publisher":"MEAG Power","date":"Current 2026","retrieval_date":"2026-08-30","type":"Official utility","url":"https://www.meagpower.org/power/transmission/integrated-transmission-system/"},
+    {"id":"sumter-emc","title":"Sumter EMC","publisher":"Sumter EMC","date":"Current 2026","retrieval_date":"2026-08-30","type":"Official utility","url":"https://sumteremc.coop/sumter-emc"},
+    {"id":"sertp","title":"Southeastern Regional Transmission Planning","publisher":"SERTP","date":"Current 2026","retrieval_date":"2026-08-30","type":"Official transmission planning","url":"https://www.southeasternrtp.com/"},
+    {"id":"ocp-academy","title":"Open Compute Project Academy","publisher":"Open Compute Project Foundation","date":"Current 2026","retrieval_date":"2026-08-30","type":"Industry technical reference","url":"https://academy.opencompute.org/pages/19/home"},
+    {"id":"scc4t-petition","title":"Community Petition","publisher":"Sumter County Citizens for Transparency","date":"Current 2026","retrieval_date":"2026-08-30","type":"Community source","url":"https://scc4t.com/petition/"},
+    {"id":"scc4t-records","title":"Public Records Index","publisher":"Sumter County Citizens for Transparency","date":"Current 2026","retrieval_date":"2026-08-30","type":"Community research index","url":"https://scc4t.com/doc/records/"},
+    {"id":"gsw-server","title":"GSW server-management course","publisher":"Georgia Southwestern State University","date":"2025-02-06","retrieval_date":"2026-08-30","type":"Official institution","url":"https://www.gsw.edu/news/2025/02/gsw-students-earn-pro-certification-in-new-cutting-edge-it-server-management-course"},
+    {"id":"nanopv","title":"NanoPV","publisher":"NanoPV","date":"Current 2026","retrieval_date":"2026-08-30","type":"Company source","url":"https://www.nano-pv.com/"},
+    {"id":"census-sumter","title":"QuickFacts: Sumter County, Georgia","publisher":"U.S. Census Bureau","date":"2025 estimate / 2020–2024 ACS","retrieval_date":"2026-08-30","type":"Official federal data","url":"https://www.census.gov/quickfacts/fact/table/sumtercountygeorgia/PST045223"},
+    {"id":"sumter-current-agendas","title":"Sumter County Agenda Center","publisher":"Sumter County","date":"Current 2026","retrieval_date":"2026-09-13","type":"Official agendas and meeting index","url":"https://www.sumtercountyga.us/agendacenter"},
+    {"id":"sumter-schools-board-records","title":"Sumter County Board of Education Agendas and Minutes","publisher":"Sumter County Schools","date":"2024–2026","retrieval_date":"2026-09-13","type":"Official school-board records index","url":"https://www.sumterschools.org/schoolboard"},
+    {"id":"southerfield-grad-select","title":"Southerfield Road Industrial Park Earns GRAD Select Status","publisher":"Georgia Department of Economic Development","date":"2026-05-25","retrieval_date":"2026-09-13","type":"Official state announcement","url":"https://georgia.org/press-releases/2026/southerfield-road-industrial-park-earns-georgia-ready-accelerated-development-select"},
+    {"id":"americus-downtown-streetscape","title":"City of Americus to Receive $1.7 Million for Downtown Streetscape Improvements","publisher":"Americus Main Street / City of Americus DDA","date":"2026-02-19","retrieval_date":"2026-09-13","type":"Official local program report","url":"https://www.downtownamericus.com/main-street-news/city-of-americus-to-receive-1-7m-for-downtown-streetscape-improvements/"},
+    {"id":"gsw-fuller-housing","title":"GSW and Community Partners Complete Second Annual Big Event Home","publisher":"Georgia Southwestern State University","date":"2025-05-06","retrieval_date":"2026-09-13","type":"Official institution announcement","url":"https://www.gsw.edu/news/2025/05/over-300-gsw-volunteers-help-build-home-for-americus-mother-of-seven-during-second-annual-big-event"},
+    {"id":"phoebe-sumter-childcare","title":"Synovus Contributes to Childcare Facility at Phoebe Sumter","publisher":"Phoebe Putney Health System","date":"2025-10-06","retrieval_date":"2026-09-13","type":"Official health-system announcement","url":"https://phoebehealth.com/media-center/synovus-donates-100000-to-support-childcare-facility-at-phoebe-sumter-medical-center/"},
+    {"id":"sumter-emc-youth","title":"Sumter EMC Youth Leadership Experience Graduation","publisher":"Sumter EMC","date":"2025-04-21","retrieval_date":"2026-09-13","type":"Official utility announcement","url":"https://sumteremc.coop/news/sumter-emc-hosts-graduation-youth-leadership-program"},
+    {"id":"gswr-official","title":"Georgia Southwestern Railroad","publisher":"Genesee & Wyoming","date":"Operating figures current June 2024","retrieval_date":"2026-09-13","type":"Official railroad profile","url":"https://www.gwrr.com/railroads/georgia-southwestern-railroad"},
+    {"id":"hog-official","title":"Heart of Georgia Railroad","publisher":"Genesee & Wyoming","date":"Current railroad profile","retrieval_date":"2026-09-13","type":"Official railroad profile","url":"https://www.gwrr.com/railroads/heart-of-georgia-railroad-inc"},
+    {"id":"sam-shortline","title":"SAM Shortline Excursion Train","publisher":"Georgia Department of Natural Resources","date":"Current tourism service","retrieval_date":"2026-09-13","type":"Official tourism source","url":"https://www.samshortline.com/"},
+    {"id":"select-sumter-current","title":"Current Sumter County Economic Development Activity","publisher":"Sumter County Development Authority","date":"2025–2026","retrieval_date":"2026-09-13","type":"Official authority news index","url":"https://www.selectsumter.com/home/"}
+  ],
+  "human_review_required": true
+}

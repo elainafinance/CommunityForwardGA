@@ -1,0 +1,100 @@
+{
+  "version": "2026-09-13.1",
+  "purpose": "Bounded retrieval-architecture smoke test; not five deep profiles and not site screening.",
+  "retrieval_date": "2026-09-13",
+  "tests": [
+    {
+      "zip": "30303",
+      "community_type": "metro core",
+      "resolved_jurisdiction": "Atlanta / Fulton County",
+      "school_district": "Atlanta Public Schools; address-level assignment still required",
+      "source_count": 5,
+      "source_types": ["city ACFR index", "city economic-development authority", "school district", "technical college", "electric-provider context"],
+      "populated_categories": ["municipal finance", "economic development", "schools", "technical education", "energy context"],
+      "sources": [
+        "https://www.atlantaga.gov/government/departments/finance/office-of-the-controller/financial-reports",
+        "https://www.atlantaga.gov/government/economic-development/invest-atlanta",
+        "https://www.atlantapublicschools.us/",
+        "https://atlantatech.edu/",
+        "https://www.georgiapower.com/business/industry-services/economic-development.html"
+      ],
+      "limitations": ["ZIP does not determine school attendance zone or electric service at an address", "No project-specific utility capacity was researched"],
+      "deep_profile_run": false
+    },
+    {
+      "zip": "30240",
+      "community_type": "small city with municipal public power",
+      "resolved_jurisdiction": "LaGrange / Troup County",
+      "school_district": "Troup County School System",
+      "source_count": 6,
+      "source_types": ["current comprehensive plan", "municipal utility", "development authority", "school finance", "CTAE/college-and-career academy", "technical college"],
+      "populated_categories": ["planning", "utilities", "economic development", "school finance", "workforce", "technical education"],
+      "sources": [
+        "https://dca.georgia.gov/document/document/lagrange-comp-plan-update-2025/download",
+        "https://www.lagrangega.gov/Utilities/Home",
+        "https://lagrangedevelopment.com/",
+        "https://www.troup.org/departments/about-finance/budget-information",
+        "https://www.troup.org/curriculum-instruction-professional-learning/teaching-and-learning/ctae",
+        "https://www.westgatech.edu/"
+      ],
+      "limitations": ["Municipal service availability is address-specific", "No firm incremental electric, water or sewer capacity was inferred"],
+      "deep_profile_run": false
+    },
+    {
+      "zip": "30401",
+      "community_type": "rural regional center",
+      "resolved_jurisdiction": "Swainsboro / Emanuel County",
+      "school_district": "Emanuel County Schools",
+      "source_count": 6,
+      "source_types": ["city government", "joint development authority", "municipal utility/provider page", "school district", "technical college", "USG institution"],
+      "populated_categories": ["jurisdiction", "economic development", "utility-provider candidates", "schools", "technical education", "higher education"],
+      "sources": [
+        "https://cityofswainsboro.org/government/",
+        "https://cityofswainsboro.org/business/resources/joint-development-authority/",
+        "https://cityofswainsboro.org/residents/utilities/utilities-services/",
+        "https://www.emanuel.k12.ga.us/schoolboard",
+        "https://www.southeasterntech.edu/",
+        "https://www.ega.edu/"
+      ],
+      "limitations": ["Latest municipal and county audit documents were not resolved in this bounded smoke test", "Altamaha EMC and Georgia Power are listed candidates; an address controls service"],
+      "deep_profile_run": false
+    },
+    {
+      "zip": "31501",
+      "community_type": "small-city regional hub",
+      "resolved_jurisdiction": "Waycross / Ware County",
+      "school_district": "Ware County School District",
+      "source_count": 5,
+      "source_types": ["city finance/audit index", "city utility", "joint development authority", "school district", "technical college"],
+      "populated_categories": ["municipal finance", "water/sewer context", "economic development", "schools", "technical education"],
+      "sources": [
+        "https://www.waycrossga.gov/176/Finance-Department",
+        "https://www.waycrossga.gov/265/Utility-Customer-Service",
+        "https://www.waycrossga.gov/204/Waycross-Ware-County-Development-Authori",
+        "https://www.ware.k12.ga.us/",
+        "https://www.coastalpines.edu/"
+      ],
+      "limitations": ["Electric service provider requires address-level validation", "No parcel, engineering or environmental diligence was attempted"],
+      "deep_profile_run": false
+    },
+    {
+      "zip": "31401",
+      "community_type": "coastal urban and logistics market",
+      "resolved_jurisdiction": "Savannah / Chatham County",
+      "school_district": "Savannah-Chatham County Public School System",
+      "source_count": 6,
+      "source_types": ["city ACFR", "city finance/SPLOST index", "economic-development authority", "school district", "technical college", "municipal water utility"],
+      "populated_categories": ["municipal finance", "public capital", "economic development", "schools", "technical education", "water utility context"],
+      "sources": [
+        "https://www.savannahga.gov/DocumentCenter/View/33388/2024-ACFR",
+        "https://savannahga.gov/471/Office-of-Financial-Services",
+        "https://www.savannahga.gov/2859/Savannah-Economic-Development-Authority-",
+        "https://www.sccpss.com/",
+        "https://www.savannahtech.edu/",
+        "https://www.savannahga.gov/utilities"
+      ],
+      "limitations": ["Coastal flood, water and environmental issues require deeper study", "Georgia Power context does not establish project-specific capacity"],
+      "deep_profile_run": false
+    }
+  ]
+}

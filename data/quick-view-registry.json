@@ -1,0 +1,135 @@
+{
+  "version": "2026-09-13.4",
+  "profiles": [
+    {
+      "profile_id": "americus-sumter-quick-view",
+      "match": ["31709","31719","americus","americus georgia","sumter county","sumter county georgia"],
+      "mode": "live-public-data-preview",
+      "status": "PRELIMINARY",
+      "research_status": "CACHED",
+      "retrieval_date": "2026-09-13",
+      "community": {
+        "name": "Americus / Sumter County, Georgia",
+        "municipality": "Americus",
+        "county": "Sumter County",
+        "population": "28,801 county estimate (2025)",
+        "utility": "City water, sewer, sanitation, stormwater and natural gas; electric provider varies by address",
+        "rail": "Rail operator and active-use details require verification",
+        "signal": "$12 million state-listed drinking-water project",
+        "confidence": "Quick public-source view",
+        "classification": "Preliminary — deeper research required"
+      },
+      "geography_resolution": {
+        "search_geography": "31709 / 31719",
+        "municipalities": ["Americus"],
+        "county": "Sumter County",
+        "zip_codes": ["31709","31719"],
+        "utility_service_areas": ["City of Americus water, sewer, sanitation, stormwater and natural-gas systems","Electric service territory requires address-level utility validation"],
+        "school_districts": ["Sumter County Schools"],
+        "development_authorities": ["Sumter County Development Authority"],
+        "rail_corridors": ["Rail ownership, traffic and easement research required"],
+        "tags": ["Same Municipality","Same County","Same School System","Shared Municipal Utility Relationship"]
+      },
+      "entities": [
+        {"entity_id":"sumter_county_ga","name":"Sumter County Government","role":"County government","status":"CACHED"},
+        {"entity_id":"city_of_americus_ga","name":"City of Americus","role":"Municipal government and enterprise utilities","status":"CACHED"},
+        {"entity_id":"sumter_county_schools_ga","name":"Sumter County Schools","role":"Public school system","status":"CACHED"},
+        {"entity_id":"sumter_county_development_authority_ga","name":"Sumter County Development Authority","role":"Economic-development authority","status":"CACHED"}
+      ],
+      "financial_baseline": [
+        {"entity_id":"sumter_county_ga","entity":"Sumter County Government","latest_audited_period":"FY2024 audit","current_public_signal":"Unmodified opinion with repeat control findings; FY2024-2025 budget also public","status":"VERIFIED","source_ids":["sumter-county-fy2024-audit","sumter-budget-2025"]},
+        {"entity_id":"city_of_americus_ga","entity":"City of Americus","latest_audited_period":"FY2024 ACFR","current_public_signal":"MD&A reports salaries and benefits as 37% of its expense-type chart; separate salary/benefit dollars and the chart's dollar denominator are not disclosed. Water/Sewer operating income was $2.67M; audit reported a material weakness.","status":"VERIFIED","source_ids":["city-americus-fy2024-acfr"]},
+        {"entity_id":"sumter_county_schools_ga","entity":"Sumter County Schools","latest_audited_period":"FY2024 audit","current_public_signal":"MD&A was omitted and no salary object schedule appears. Current-year TRS covered payroll was $21.75M and OPEB covered-employee payroll $23.08M; these are corroborating bases, not salary expense.","status":"VERIFIED","source_ids":["sumter-schools-fy2024-audit"]}
+      ],
+      "fiscal_measures": [
+        {"type":"SPLOST","role":"County/municipal capital need","detail":"A current validated countywide project list was not established in this quick pass.","categories":["Research Needed"],"status":"RESEARCH NEEDED","source_type":"Official"},
+        {"type":"E-SPLOST","role":"School capital and infrastructure","detail":"The official November 2025 ballot authorized up to $50M of general-obligation bonds and up to $45M of one-cent E-SPLOST collections over no more than 20 quarters. The measure passed 3,263 Yes to 1,022 No. The Athletic and Sports Complex and technology capital are expressly authorized; authorization does not prove implementation.","categories":["schools","technology","transportation","public safety","recreation"],"status":"VERIFIED","source_type":"Official Ballot and Result","source_ids":["sumter-2025-ballot","sumter-2025-election-results"]},
+        {"type":"T-SPLOST / TIA","role":"Transportation capital","detail":"The FY2024-2025 county budget shows $1.1 million of budgeted T-SPLOST tax revenue and $1.354 million total T-SPLOST revenue including fund balance and interest.","categories":["roads","bridges","transportation"],"status":"VERIFIED","source_type":"Official","source_ids":["sumter-budget-2025"]},
+        {"type":"LOST","role":"Operating revenue and property-tax-offset signal","detail":"Keep separate from capital sales taxes; current distribution and dependence are not yet validated.","categories":["operations"],"status":"RESEARCH NEEDED","source_type":"Audit"},
+        {"type":"Bonds","role":"Debt-financed capital","detail":"Outstanding county, city and school bond obligations require current debt schedules and official validation.","categories":["debt"],"status":"RESEARCH NEEDED","source_type":"Audit"}
+      ],
+      "operating_revenue": [
+        {"name":"Property taxes","detail":"The city provides a property-tax payment channel; current revenue mix requires the latest audit.","status":"REPORTED"},
+        {"name":"LOST","detail":"Keep separate from capital sales taxes; current distribution and dependence are not yet validated.","status":"RESEARCH NEEDED"},
+        {"name":"Enterprise utilities","detail":"Water, sewer, sanitation, stormwater and natural-gas activity must remain proprietary/enterprise activity and must not be treated as ordinary General Fund revenue.","status":"VERIFIED"}
+      ],
+      "enterprise_funds": [
+        {"name":"City water and sewer","accounting_boundary":"Municipal enterprise activity — separate from ordinary General Fund revenue","detail":"FY2024 audited operating revenues were $9.01M and operating expenses $6.33M. After nonoperating activity and net transfers out of $2.77M, net position declined $502,441 to $12.40M. Physical capacity and corrective-action completion still require confirmation.","status":"VERIFIED","source_ids":["city-americus-fy2024-acfr"]},
+        {"name":"City natural gas","accounting_boundary":"Municipal enterprise activity — separate from ordinary General Fund revenue","detail":"The city maintains a natural-gas department; financial performance and service territory require audit and system records.","status":"VERIFIED","source_ids":["americus-gas"]},
+        {"name":"Drinking-water capital project","accounting_boundary":"Public utility capital project","detail":"Georgia's FY2025 DWSRF fundable list identifies a $12 million City of Americus project, 6,349 connections and a stated goal of serving more than 200 customers from a contaminated private system.","status":"REPORTED","source_ids":["gefa-dwsrf-2025"]}
+      ],
+      "infrastructure_projects": [
+        {"project_id":"americus-dwsrf-2025","name":"City of Americus drinking-water project","project_location_zip":"31709","municipality":"Americus","county":"Sumter County","serving_utility":"City of Americus","utility_service_territory":["Americus municipal system; exact project service boundary requires verification"],"affected_geographies":["31709","31719","potential customers outside city limits subject to project documents"],"potential_service_area_impact":"Potential public-health and system-extension relevance","confirmed_capacity_impact":null,"requires_utility_verification":true,"relationship_tag":"Same Municipal Utility Relationship","evidence_status":"REPORTED","source_ids":["gefa-dwsrf-2025"]}
+      ],
+      "recent_signals": [
+        {"category":"Utilities","date":"FY2025 list","title":"$12 million drinking-water project appears on Georgia's DWSRF fundable list","summary":"State material lists 6,349 connections and a project intended to reach more than 200 customers from a contaminated private system.","status":"REPORTED","source_type":"State Data","source_ids":["gefa-dwsrf-2025"]},
+        {"category":"Schools","date":"2025-11-21","title":"Voters approved the school E-SPLOST continuation","summary":"Official results show 3,263 Yes votes and 1,022 No votes. The ballot separately caps bonds at $50M and collections at $45M over no more than 20 quarters.","status":"VERIFIED","source_type":"Official Ballot and Result","source_ids":["sumter-2025-ballot","sumter-2025-election-results"]},
+        {"category":"Education","date":"2025-02-06","title":"GSW added hands-on hybrid server-management training","summary":"The university reported a server-management course using Windows Server, Azure, virtualization, networking and interactive labs.","status":"REPORTED","source_type":"Official","source_ids":["gsw-server"]},
+        {"category":"Education","date":"2025-10-30","title":"GSW completed a $6.2 million library renovation","summary":"The 63,270-square-foot project includes technology and collaborative study space, with $5 million in state funding reported by the university.","status":"REPORTED","source_type":"Official","source_ids":["gsw-library"]},
+        {"category":"Housing","date":"2025-05-06","title":"Local institutions partnered on a community home build","summary":"GSW reported a joint housing build with the Fuller Center, South Georgia Technical College and Phoebe Sumter.","status":"REPORTED","source_type":"Community Source","source_ids":["gsw-housing"]},
+        {"category":"Transportation","date":"2025-02","title":"Regional transit plan identifies coordination opportunities","summary":"GDOT planning material discusses inter-county transit coordination and potential Americus Transit expansion relationships.","status":"REPORTED","source_type":"Official","source_ids":["gdot-transit"]}
+      ],
+      "schools_youth": [
+        {"title":"Public school system","detail":"Sumter County Schools; FY2024 audit and FY2025 SPLOST schedule are listed publicly.","status":"VERIFIED","source_ids":["sumter-schools-finance"]},
+        {"title":"CTAE and accountability","detail":"Georgia's public CTAE reporting system supports district-level review, but this quick pass does not reduce school quality to one number.","status":"RESEARCH NEEDED","source_ids":["gadoe-ctae"]},
+        {"title":"Postsecondary technology pathway","detail":"Georgia Southwestern offers IT and computer-science programming; South Georgia Technical College provides technical workforce programs in Americus.","status":"REPORTED","source_ids":["gsw-server","sgtc-catalog"]},
+        {"title":"Middle-school belonging and creation","detail":"Sports, arts, robotics, coding, maker and teen-program availability requires a dedicated local-program inventory.","status":"RESEARCH NEEDED"}
+      ],
+      "assets": [
+        {"title":"Georgia Southwestern State University","detail":"Public university with IT, computer science, health and other programs in ZIP 31709.","status":"VERIFIED"},
+        {"title":"South Georgia Technical College","detail":"Technical college and workforce-training asset in Americus.","status":"VERIFIED"},
+        {"title":"Phoebe Sumter Medical Center","detail":"Regional health-care and institutional partner identified in local partnership reporting.","status":"REPORTED"},
+        {"title":"Historic downtown and local institutions","detail":"Downtown Americus, museums, tourism assets and civic facilities warrant utilization and visitor-circulation analysis.","status":"INFERENCE"},
+        {"title":"Highway and airport access","detail":"US 19, US 280 and Jimmy Carter Regional Airport are economic-development assets; operational fit requires project-specific diligence.","status":"REPORTED"}
+      ],
+      "opportunities": [
+        {"title":"Water-system resilience and customer protection","condition":"A state-listed drinking-water project and municipal enterprise system","connection":"Evaluate project delivery, affordability, leakage, debt and whether private participation could reduce resident burden","status":"INFERENCE"},
+        {"title":"Technology-creation pathway","condition":"GSW and SGTC technology assets with school capital priorities","connection":"Map middle-school creation programs through CTAE, dual enrollment, credentials and paid work","status":"INFERENCE"},
+        {"title":"Transit and access coordination","condition":"Regional transit coordination concepts and multiple education/employment anchors","connection":"Test whether mobility gaps constrain participation in school, training, health care and employment","status":"INFERENCE"},
+        {"title":"Existing-asset activation","condition":"Downtown, higher-education, health-care and civic assets","connection":"Study programming, reuse and visitor/economic circulation before proposing new construction","status":"INFERENCE"}
+      ],
+      "referendum_discovery": {
+        "ballotpedia_query":"Sumter County Georgia SPLOST E-SPLOST T-SPLOST bond referendum",
+        "ballotpedia_url":"https://ballotpedia.org/wiki/index.php?search=Sumter+County+Georgia+SPLOST+E-SPLOST+T-SPLOST+bond+referendum",
+        "status":"DISCOVERY_PATH_CHECKED",
+        "validation_rule":"Ballotpedia is discovery/context only. Official ballot language, resolutions, election records or audited schedules are required before a measure is VERIFIED.",
+        "official_validation_status":"VERIFIED FOR NOVEMBER 2025 SCHOOL E-SPLOST — official ballot and Georgia Secretary of State result retained; other measures remain separately scoped"
+      },
+      "entity_cache": [
+        {"key":"sumter_county_ga:budget:fy2025:https_sumtercountyga_us_budget","status":"CACHED"},
+        {"key":"city_of_americus_ga:acfr:fy2023:https_americusga_gov_finance","status":"CACHED"},
+        {"key":"sumter_county_schools_ga:audit:fy2024:https_sumterschools_org_finance","status":"CACHED"},
+        {"key":"sumter_county_schools_ga:esplost:2026:https_sumterschools_org_esplost","status":"CACHED"},
+        {"key":"sumter_county_schools_ga:esplost:2025-11-04:official_ballot_and_result","status":"CACHED"},
+        {"key":"city_of_americus_ga:utility_project:fy2025:https_gefa_georgia_gov_dwsrf","status":"CACHED"}
+      ],
+      "sources": [
+        {"id":"sumter-financials","title":"Sumter County Financial Documents","publisher":"Sumter County Government","type":"Official","date":"page current 2026","retrieval_date":"2026-08-30","url":"https://www.sumtercountyga.us/171/Financial-Documents"},
+        {"id":"sumter-budget-2025","title":"FY 2024-2025 Budget","publisher":"Sumter County Government","type":"Official","date":"2024-07-18","retrieval_date":"2026-08-30","url":"https://www.sumtercountyga.us/DocumentCenter/View/1850/FY-2024-2025-Budget-PDF"},
+        {"id":"sumter-audit-rfp","title":"2025-2027 Audit RFP","publisher":"Sumter County Government","type":"Official","date":"2024","retrieval_date":"2026-08-30","url":"https://www.sumtercountyga.us/DocumentCenter/View/1568/RFP-FOR-AUDITING-SERVICES?bidId="},
+        {"id":"americus-finance","title":"City of Americus Finance and Document Center","publisher":"City of Americus","type":"Official","date":"page current 2026","retrieval_date":"2026-08-30","url":"https://www.americusga.gov/finance/index.php"},
+        {"id":"americus-utility","title":"City Utility Services","publisher":"City of Americus","type":"Official","date":"page current 2026","retrieval_date":"2026-08-30","url":"https://www.americusga.gov/government/departments/finance/utility_billing.php"},
+        {"id":"americus-gas","title":"Natural Gas Department","publisher":"City of Americus","type":"Official","date":"page current 2026","retrieval_date":"2026-08-30","url":"https://www.americusga.gov/departments/natural_gas/index.php"},
+        {"id":"sumter-schools-finance","title":"Finance & Business Operations","publisher":"Sumter County Schools","type":"Official","date":"page current 2026","retrieval_date":"2026-08-30","url":"https://www.sumterschools.org/financeandbusinessoperations"},
+        {"id":"sumter-esplost","title":"E-SPLOST Information","publisher":"Sumter County Schools","type":"Official / Ballot Measure","date":"page current 2026","retrieval_date":"2026-08-30","url":"https://www.sumterschools.org/esplost"},
+        {"id":"sumter-2025-ballot","title":"November 4, 2025 Special Election — Sumter County Sample Ballot","publisher":"Americus-Sumter County Board of Elections and Voter Registration","type":"Official Ballot","date":"2025-11-04","retrieval_date":"2026-09-13","url":"assets/americus/sources/2025-NOV-sample-ballots.pdf"},
+        {"id":"sumter-2025-election-results","title":"November 4, 2025 Official Results — Sumter County","publisher":"Georgia Secretary of State","type":"Official Election Result","date":"2025-11-21","retrieval_date":"2026-09-13","url":"https://results.sos.ga.gov/results/public/sumter-county-ga/elections/MunicipalGeneralSpecialElectionPSC11042025"},
+        {"id":"city-americus-fy2023-acfr","title":"City of Americus Annual Comprehensive Financial Report FY2023","publisher":"City of Americus","type":"Audit","date":"2023-12-31","retrieval_date":"2026-09-13","url":"assets/americus/sources/city-of-americus-fy2023-acfr.pdf"},
+      {"id":"city-americus-fy2024-acfr","title":"City of Americus Annual Comprehensive Financial Report FY2024","publisher":"City of Americus","type":"Audit","date":"2024-12-31","retrieval_date":"2026-09-13","url":"assets/americus/sources/city-of-americus-fy2024-acfr.pdf"},
+      {"id":"sumter-schools-fy2024-audit","title":"Sumter County Schools FY2024 Annual Financial Report","publisher":"Sumter County Schools / Georgia Department of Audits & Accounts","type":"Audit","date":"2024-06-30; report 2025-09-04","retrieval_date":"2026-09-13","url":"https://content.myconnectsuite.com/api/documents/2e58cac1c38a44e2ab12796b0ce0df60.pdf"},
+      {"id":"sumter-county-fy2024-audit","title":"Sumter County FY2024 Financial Report","publisher":"Sumter County / CVIOG repository","type":"Audit","date":"2024-06-30","retrieval_date":"2026-09-13","url":"https://ted.cviog.uga.edu/financial-documents/sites/default/files/budgetdoc/financial-report/county-sumter-fy2024-financial-report.pdf"},
+        {"id":"gefa-dwsrf-2025","title":"FY2025 DWSRF Fundable List","publisher":"Georgia Environmental Finance Authority","type":"State Data","date":"FY2025","retrieval_date":"2026-08-30","url":"https://gefa.georgia.gov/document/document/fy2025-dwsrf-fundable-list/download"},
+        {"id":"census-sumter","title":"QuickFacts: Sumter County, Georgia","publisher":"U.S. Census Bureau","type":"State Data","date":"2025 estimate / 2020-2024 ACS","retrieval_date":"2026-08-30","url":"https://www.census.gov/quickfacts/fact/table/sumtercountygeorgia/PST045223"},
+        {"id":"gsw-server","title":"GSW students earn certification in server-management course","publisher":"Georgia Southwestern State University","type":"Official","date":"2025-02-06","retrieval_date":"2026-08-30","url":"https://www.gsw.edu/news/2025/02/gsw-students-earn-pro-certification-in-new-cutting-edge-it-server-management-course"},
+        {"id":"gsw-library","title":"James Earl Carter Library renovation","publisher":"Georgia Southwestern State University","type":"Official","date":"2025-10-30","retrieval_date":"2026-08-30","url":"https://www.gsw.edu/news/2025/10/gsw-celebrates-ribbon-cutting-and-grand-opening-for-newly-renovated-james-earl-carter-library"},
+        {"id":"gsw-housing","title":"Big Event community home build","publisher":"Georgia Southwestern State University","type":"Community Source","date":"2025-05-06","retrieval_date":"2026-08-30","url":"https://www.gsw.edu/news/2025/05/over-300-gsw-volunteers-help-build-home-for-americus-mother-of-seven-during-second-annual-big-event"},
+        {"id":"gdot-transit","title":"River Valley Regional Transit Development Plan Recommendations","publisher":"Georgia Department of Transportation","type":"Official","date":"2025-02","retrieval_date":"2026-08-30","url":"https://www.dot.ga.gov/systems/ProjectDocuments/Programs/RegionalTransitDevelopmentPlans/RVRC/RVRC_TDP_AA%20Recommendations.pdf"},
+        {"id":"gadoe-ctae","title":"CTAE Public Reporting System","publisher":"Georgia Department of Education","type":"State Data","date":"FY2025","retrieval_date":"2026-08-30","url":"https://ctaereportspublic.gadoe.org/ctaereportspublicweb"},
+        {"id":"sgtc-catalog","title":"South Georgia Technical College Catalog","publisher":"South Georgia Technical College","type":"Official","date":"2023-2025","retrieval_date":"2026-08-30","url":"https://www.southgatech.edu/wp-content/uploads/2024/04/Catalog-23-25-Updated-with-Cover-4-2024.pdf"},
+        {"id":"ballotpedia-discovery","title":"Ballotpedia local ballot-measure discovery search","publisher":"Ballotpedia","type":"Ballot Measure / Discovery","date":"searched 2026-08-30","retrieval_date":"2026-08-30","url":"https://ballotpedia.org/wiki/index.php?search=Sumter+County+Georgia+SPLOST+E-SPLOST+T-SPLOST+bond+referendum"}
+      ],
+      "unknowns": ["Current electric service provider by address and large-load capability","City and County financial periods after FY2024","Implementation, debt issuance and spending schedules for authorized capital measures","Water and wastewater engineering capacity and environmental sustainability","Completion of City FY2024 audit corrective actions","Rail ownership, traffic, condition and easement rights","Complete school, youth, housing and community-program inventory"],
+      "human_review_required": true
+    }
+  ]
+}

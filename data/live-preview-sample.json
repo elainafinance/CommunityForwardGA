@@ -1,0 +1,45 @@
+{
+  "mode": "live-preview-sample",
+  "status": "PRELIMINARY_PUBLIC_SOURCE_SCREENING_ONLY",
+  "research_status": "NEW_RESEARCH_REQUIRED",
+  "community": {
+    "query": null,
+    "resolved_name": "Research Needed",
+    "county": null,
+    "municipality": null,
+    "population": null,
+    "utility_providers": [],
+    "rail_operator": null,
+    "major_infrastructure_signals": [],
+    "confidence": "Insufficient Evidence"
+  },
+  "geography_resolution": {
+    "search_geography": null,
+    "municipalities": [],
+    "county": null,
+    "zip_codes": [],
+    "utility_service_areas": [],
+    "school_districts": [],
+    "development_authorities": [],
+    "rail_corridors": [],
+    "tags": ["Research Needed"]
+  },
+  "infrastructure_projects": [],
+  "fiscal_measures": [],
+  "enterprise_funds": [],
+  "community_needs": [],
+  "capital_matches": [],
+  "scores": {
+    "technical_opportunity": null,
+    "data_center_market_maturity": null,
+    "government_readiness": null,
+    "community_need": null,
+    "partnership_opportunity": null,
+    "existing_asset_leverage": null,
+    "rail_corridor_leverage": null,
+    "middle_school_engagement_technology_creation_readiness": null,
+    "community_risk": null
+  },
+  "message": "This static GitHub Pages demo does not retrieve or score arbitrary real communities. A future governed service would resolve geography, query approved public sources, retain citations, apply evidence controls, and route material conclusions to human review.",
+  "required_confirmation": ["utility engineering", "water and environmental engineering", "legal and financial review", "railroad confirmation", "local public process and community verification"]
+}

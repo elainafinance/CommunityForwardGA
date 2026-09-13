@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#174c3c">
+  <title>Community Forward Georgia | Public-Evidence Community Intelligence</title>
+  <meta name="description" content="Explore Georgia public finances, schools, infrastructure, workforce, active community priorities, and durable opportunity—starting from a ZIP, city, or county.">
+  <meta property="og:title" content="Community Forward Georgia | Americus Deep Community Analysis">
+  <meta property="og:description" content="Community intelligence alongside site-selection intelligence. Explore the featured Americus / Sumter County public-evidence case.">
+  <meta property="og:image" content="assets/community-forward-georgia-social-v2.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Community Forward Georgia | Americus Deep Community Analysis">
+  <meta name="twitter:description" content="Community needs. Future infrastructure. Lasting opportunity. A public-evidence case study for Americus / Sumter County.">
+  <meta name="twitter:image" content="assets/community-forward-georgia-social-v2.png">
+  <link rel="stylesheet" href="styles.css">
+  <script>if(['31709','31719','americus','sumter county'].includes((new URLSearchParams(location.search).get('location')||'').trim().toLowerCase()))document.documentElement.classList.add('case-route');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to community profile</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Community Forward Georgia home"><span class="brand-mark" aria-hidden="true">🌱</span><span><strong>Community Forward Georgia</strong><small>Community needs · Future infrastructure · Lasting opportunity</small></span></a>
+    <nav class="header-nav" aria-label="Primary navigation"><a href="#featured-case">Featured case</a><a href="methodology.html">How it works</a><button class="reset-button" id="reset-button" type="button">Start over</button></nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Featured public deep analysis</p>
+        <h1>Community Forward Georgia</h1>
+        <p class="hero-tagline">Community needs. Future infrastructure. Lasting opportunity.</p>
+        <p class="hero-subtitle">Explore how a major long-term technology investment could connect with the assets, priorities, institutions, and people already shaping Americus and Sumter County.</p>
+        <button class="button button-primary hero-cta" id="americus-button" type="button">Explore the Americus / Sumter Case</button>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a small town, farmland, rail and power infrastructure">
+        <div class="sun"></div><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div><div class="hill hill-one"></div><div class="hill hill-two"></div>
+        <div class="rail-line"><span>▰</span><span>▰</span><span>▰</span></div><div class="town" aria-hidden="true">⌂ ⌂ ♜</div><div class="power" aria-hidden="true">ϟ</div><div class="sprout" aria-hidden="true">♧</div>
+        <div class="art-caption"><strong>Start with what the community needs.</strong><span>Then ask what could create lasting local value.</span></div>
+      </div>
+    </section>
+
+    <section class="product-paths" id="featured-case" aria-label="Georgia Quick View demonstration">
+      <article class="product-path quick-demo-path"><span class="path-icon" aria-hidden="true">🧭</span><div class="quick-demo-copy"><p class="eyebrow">Georgia Quick View · public demonstration</p><h2>Try Community Forward on Another Georgia Community</h2><p>Enter a Georgia ZIP, city, or county to preview the governed research lanes and any evidence already included in the demonstration dataset. The static public demo does not perform fresh live internet research.</p>
+        <form class="search" id="community-search">
+          <label for="search-input">Georgia ZIP, city, or county</label>
+          <div class="search-row"><input id="search-input" name="location" type="search" placeholder="Georgia ZIP, city, or county" autocomplete="postal-code"><button class="button button-secondary" type="submit">Run Demo Quick View</button></div>
+          <p class="search-help geography-help" id="search-help">ZIP codes are starting points only. Community Forward Georgia expands the search to relevant municipalities, counties, schools, utilities, development authorities, and regional institutions.</p>
+        </form>
+      </div></article>
+    </section>
+
+    <section class="principle-strip" aria-label="Research principle"><span class="principle-icon" aria-hidden="true">🤝</span><p><strong>Community needs come first.</strong> We begin with what a place has already built, funded, planned, lost, or underuses—then explore what could help move it forward without assuming capacity, feasibility, or community support.</p></section>
+    <section class="live-notice" id="live-notice" hidden aria-live="polite"><div><strong id="live-notice-title">Researching… Demo</strong><p id="live-notice-copy">Community Forward is resolving the community and showing the research lanes that would be used in a live analysis.</p></div><span class="badge status-requires" id="live-notice-badge">Demo</span></section>
+
+    <section class="quick-view" id="quick-view" hidden aria-live="polite">
+      <div class="quick-view-heading"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">⚡</span> Public workflow demonstration</p><h2 id="quick-view-title">Researching… Demo</h2><p id="quick-view-summary">Community Forward is resolving the community and showing the research lanes that would be used in a live analysis.</p><p class="demo-disclosure" id="quick-demo-disclosure"><strong>Public demo:</strong> Live research services are not connected yet. This preview shows the governed research workflow and any evidence already included in the demonstration dataset.</p></div><span class="badge status-requires" id="quick-view-state">Workflow preview</span></div>
+      <div class="research-progress" id="research-progress" aria-label="Quick-view research progress"></div>
+      <div class="quick-identity" id="quick-identity"></div>
+      <div class="quick-view-grid">
+        <article class="quick-panel quick-panel-wide"><p class="eyebrow">🗳️ Capital priorities</p><h3>What Residents Are Being Asked to Fund</h3><div id="quick-funding"></div></article>
+        <article class="quick-panel"><p class="eyebrow">🏛️ Operating picture</p><h3>How Local Government Pays for Operations</h3><div id="quick-operations"></div></article>
+        <article class="quick-panel"><p class="eyebrow">📑 Audits and budgets</p><h3>Public Financial Baseline</h3><div id="quick-financials"></div></article>
+        <article class="quick-panel"><p class="eyebrow">💧 Community-owned systems</p><h3>Utility Strength &amp; Community Benefit</h3><div id="quick-utilities"></div></article>
+        <article class="quick-panel quick-panel-wide"><p class="eyebrow">🧩 Community conditions</p><h3>Community Conditions &amp; Active Priorities</h3><div class="signal-list" id="quick-conditions"></div></article>
+        <article class="quick-panel quick-panel-wide"><p class="eyebrow">📰 Current context</p><h3>Recent Community Signals</h3><div class="signal-list" id="quick-signals"></div></article>
+        <article class="quick-panel"><p class="eyebrow">🎓 Belonging and pathways</p><h3>Schools &amp; Youth</h3><div id="quick-schools"></div></article>
+        <article class="quick-panel"><p class="eyebrow">🚆 Systems beyond one ZIP</p><h3>Infrastructure Signals</h3><div id="quick-infrastructure"></div></article>
+        <article class="quick-panel"><p class="eyebrow">🌟 Strengths to build from</p><h3>What This Community Already Has Going for It</h3><div id="quick-assets"></div></article>
+        <article class="quick-panel"><p class="eyebrow">🔗 Next questions</p><h3>Early Opportunity Signals</h3><div id="quick-opportunities"></div></article>
+        <article class="quick-panel quick-panel-wide source-path-panel"><p class="eyebrow">📚 Public evidence</p><h3>Sources, Discovery Paths &amp; Unknowns</h3><div id="quick-sources"></div></article>
+      </div>
+    </section>
+
+    <section class="americus-profile" id="americus-deep-profile" hidden aria-live="polite">
+      <div class="americus-profile-head">
+        <div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🌿</span> Featured public case study</p><h2>A Major Opportunity Is Taking Shape in Americus / Sumter</h2><p>Liberty’s proposed technology campus could bring substantial private investment, new employment, and long-term infrastructure activity. Community Forward explores how that opportunity could connect with the assets, priorities, and people already shaping the region.</p></div>
+      </div>
+      <nav class="americus-section-nav" id="americus-section-nav" aria-label="Americus profile sections"></nav>
+      <div class="americus-section-stack" id="americus-section-stack"></div>
+    </section>
+
+    <section class="profile" id="profile" aria-live="polite">
+      <div class="profile-heading"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">📍</span> Community at a Glance</p><h2 id="community-name">Pinehaven County, Georgia</h2><p class="classification" id="classification">Industrial reuse candidate requiring utility confirmation</p></div><span class="badge badge-synthetic" id="profile-badge">Synthetic Demonstration - Fictional County</span></div>
+      <div class="profile-grid"><article class="summary-card"><span>Population</span><strong id="population">11,420</strong></article><article class="summary-card"><span>County / municipality</span><strong id="geography">Pinehaven County / Cedar Crossing</strong></article><article class="summary-card"><span>Utility provider</span><strong id="utility">Pinehaven Electric Cooperative</strong></article><article class="summary-card"><span>Rail operator</span><strong id="rail">Pinehaven & Gulf Short Line</strong></article><article class="summary-card"><span>Infrastructure signal</span><strong id="signal">Planned 230 kV reinforcement</strong></article><article class="summary-card"><span>Confidence</span><strong id="confidence">Synthetic demonstration</strong></article></div>
+      <div class="evidence-key" aria-label="Evidence labels"><span class="badge status-documented">Documented</span><span class="badge status-reported">Reported</span><span class="badge status-inferred">Inferred</span><span class="badge status-potential">Potential</span><span class="badge status-insufficient">Insufficient Evidence</span><span class="badge status-requires">Requires Verification</span><span class="badge status-cached">Cached / previously validated</span></div>
+    </section>
+
+    <section class="geography-panel" id="geography-resolver">
+      <div class="section-heading"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🧭</span> How This Place Connects</p><h2>One search, the wider community picture</h2><p>Postal boundaries are only a starting point. Utilities, schools, rail, and economic activity often connect a larger service area.</p></div><span class="badge status-cached" id="research-control">CACHED</span></div>
+      <div class="geography-grid"><article><span>Search Geography</span><strong id="search-geography">Pinehaven example</strong></article><article class="service-geography"><span>Infrastructure Service Geography</span><strong id="service-geography">County, utility, school, rail and development relationships</strong></article></div>
+      <div class="geography-chain" id="geography-chain"></div><div class="relationship-tags" id="relationship-tags"></div>
+    </section>
+
+    <section class="narrative-section" id="community-intelligence"><div class="section-heading"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🌱</span> Start With the Community</p><h2>What matters here—before any score</h2><p>Begin with documented needs, what residents are funding, and what the community already has.</p></div></div><div class="narrative-stack" id="narrative-stack"></div></section>
+
+    <section class="system-layers" aria-label="Fiscal, utility and capital layers">
+      <article class="layer-panel"><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🪙</span> Local funding picture</p><h2>How Local Dollars Work</h2><div id="fiscal-layer"></div></article>
+      <article class="layer-panel utility-layer"><p class="eyebrow"><span class="section-symbol" aria-hidden="true">💧</span> Community-owned systems</p><h2>Utilities & Household Impact</h2><div id="enterprise-layer"></div></article>
+      <article class="layer-panel"><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🧩</span> Funding possibilities</p><h2>How Funding Could Stack</h2><div id="capital-match-layer"></div></article>
+      <article class="layer-panel"><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🔎</span> Questions for later study</p><h2>Ideas That Need More Study</h2><div id="future-research-layer"></div></article>
+    </section>
+
+    <section class="score-section" id="scorecard"><div class="section-heading"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">📊</span> Separate signals</p><h2>Signals at a Glance</h2><p>No single ranking. Select any signal to see what it means.</p></div><span class="info-chip" data-tooltip="Community Risk runs in the opposite direction: a higher score means greater risk.">Why separate signals?</span></div><div class="score-grid" id="score-grid"></div></section>
+
+    <section class="research-dashboard">
+      <div class="dashboard-intro"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🗂️</span> Follow the evidence</p><h2>Dig Into the Details</h2><p>Open any card to see the signal, its limits, and what still needs confirmation.</p></div><div class="filters" role="group" aria-label="Filter research cards"><button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Everything</button><button class="filter-button" type="button" data-filter="current" aria-pressed="false">What’s here</button><button class="filter-button" type="button" data-filter="future" aria-pressed="false">What’s coming</button><button class="filter-button" type="button" data-filter="needs" aria-pressed="false">Community needs</button><button class="filter-button" type="button" data-filter="verification" aria-pressed="false">Needs checking</button></div></div>
+      <div class="dashboard-layout"><nav class="section-nav" id="section-nav" aria-label="Community profile sections"></nav><div class="research-grid" id="research-grid"></div></div>
+    </section>
+
+    <section class="pathway-section" id="pathway"><div class="section-heading"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🎓</span> Learning to local opportunity</p><h2>Building a Path From School to Local Careers</h2><p>Elementary exposure → middle-school belonging + creation → CTAE → 9th-grade bridge → dual enrollment → college/credentials → paid work → local technology employment</p></div></div><div class="pathway" id="pathway-flow"></div></section>
+
+    <section class="hub-section" id="hub"><div class="hub-copy"><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🛠️</span> A Pinehaven idea to explore</p><h2>A Place to Belong, Build & Create</h2><p>The Pinehaven Teen & Technology Hub is a synthetic idea tied to a documented gap—not a promise of social outcomes.</p><div class="hub-tags"><span>Roller skating</span><span>Social space</span><span>Arts & music</span><span>Robotics</span><span>VR/AR creation</span><span>AI & coding</span><span>Digital design</span><span>Electronics</span><span>Maker lab</span><span>Mentoring</span></div></div><div class="hub-controls"><h3>What makes it sustainable</h3><ul><li>Reuse existing buildings before new construction</li><li>Transportation and safe access</li><li>Qualified staff and safeguarding</li><li>Curriculum and technical instructors</li><li>Maintenance and equipment replacement</li><li>Recurring operating support</li><li>Measurable, non-causal outcomes</li></ul></div></section>
+
+    <section class="opportunity-section" id="opportunities"><div class="section-heading"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🔗</span> Community opportunity connections</p><h2>Where Could Investment Help With Something Already Needed?</h2><p>Every connection starts with an existing community condition and ends with a clear verification step.</p></div></div><div class="opportunity-grid" id="opportunity-grid"></div></section>
+
+    <section class="legacy-section" id="legacy"><div class="section-heading"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">🌳</span> A generation from now</p><h2>What Could Still Be Here in 30 Years?</h2><p>Potential long-term outcomes—not guarantees.</p></div><div class="legacy-switch" role="group" aria-label="Choose legacy horizon"><button type="button" data-horizon="10">10 years</button><button type="button" data-horizon="20">20 years</button><button class="is-active" type="button" data-horizon="30">30 years</button></div></div><div class="legacy-grid" id="legacy-grid"></div></section>
+
+    <section class="sources-section" id="sources"><div><p class="eyebrow"><span class="section-symbol" aria-hidden="true">📚</span> Open and transparent</p><h2>Where the Evidence Comes From</h2><p>Pinehaven uses explicitly fictional demonstration sources. A real preview would retain direct public links, source dates, retrieval dates, evidence excerpts, conflicts, and human-review flags.</p></div><div class="source-list" id="source-list"></div></section>
+
+    <section class="disclaimer" id="disclaimer"><div class="disclaimer-icon" aria-hidden="true">ℹ</div><div><h2>What This Demo Can—and Can’t—Tell You</h2><p>Community Forward Georgia is a public-information research and planning framework. Georgia Quick View and Deep Community Analysis organize public evidence about community conditions, institutions, investment, infrastructure, workforce, transportation, and potential opportunities. Community Forward does not rank or recommend real communities as data-center sites, establish technical capacity, determine environmental suitability, authorize incentives, provide legal or engineering conclusions, or represent community consent. Appropriate professional and local verification remains required.</p><p><strong>The current public demonstration does not perform live internet research for newly entered communities.</strong> Unresearched locations demonstrate the research workflow and identify the evidence lanes that a production research service would run.</p></div></section>
+  </main>
+
+  <footer><div><strong>Community Forward Georgia</strong><p>Community needs. Future infrastructure. Lasting opportunity.</p><button class="footer-fixture-link" id="pinehaven-button" type="button">Synthetic regression fixture</button></div><div><a href="methodology.html">How it works</a><a href="DISCLAIMER.md">Public disclaimer</a><a href="data/real-location-response-schema.json">Data structure</a></div></footer>
+
+  <dialog id="score-dialog" aria-labelledby="score-dialog-title"><button class="dialog-close" id="dialog-close" type="button" aria-label="Close score explanation">×</button><p class="eyebrow">Score explanation</p><h2 id="score-dialog-title"></h2><div id="score-dialog-body"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

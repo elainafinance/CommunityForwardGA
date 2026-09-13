@@ -1,0 +1,13 @@
+{
+  "name": "Community Conditions & Active Priorities",
+  "version": "2026-09-13.1",
+  "workflow": ["ZIP", "jurisdictions", "institutions", "current public records", "active community issues", "financial capacity", "public investment", "opportunity analysis"],
+  "categories": ["Youth & Education", "Recreation & Community Space", "Housing", "Public Safety", "Utilities", "Transportation", "Workforce", "Downtown & Economic Development", "Health / Social Infrastructure", "Governance & Public Trust"],
+  "minimum_search_lanes": ["geography", "county finance", "municipal finance", "school finance", "school current records", "local-government current records", "development authority", "economic development", "energy context", "utility context", "public capital", "technical college", "nearby university", "local/regional news"],
+  "evidence_statuses": ["VERIFIED", "REPORTED", "INFERENCE", "RESEARCH NEEDED"],
+  "record_fields": ["condition_id", "category", "title", "short_description", "geography", "date_range", "evidence_status", "source_ids", "evidence_type", "current_community_response", "funding_already_committed", "unresolved_need", "major_investment_relevance", "recommendation_eligible", "durability_test", "operating_sustainability"],
+  "cache_policy": "Cache by government, school, authority, utility or institution entity plus record type, period and source URL; never duplicate the same record merely because related ZIP inputs differ.",
+  "presentation_policy": "Render only categories with usable information. Keep Research Needed prominent for material nonpublic or project-specific questions, not as repeated empty cards.",
+  "recommendation_gate": "A potential response must trace to sourced conditions, identify the current response and remaining gap, pass durability and operating-sustainability tests, and retain human review.",
+  "excluded_as_standalone_benefit": ["developer-required infrastructure", "required road or utility work", "temporary construction employment", "vague partnership language", "unverified job claims", "unrelated existing economic activity", "one-time donations without an operating plan"]
+}
